@@ -1,0 +1,7 @@
+# uv configuration file
+
+# Cache directory for downloaded packages
+cache-dir = ".uv-cache"
+
+# Specify the index URL for package downloads
+index-url = "https://pypi.org/simple"

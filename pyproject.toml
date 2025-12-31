@@ -1,0 +1,56 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "store_supply_chain"
+version = "0.1.0"
+description = "Store supply chain management system"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = [
+    # Core dependencies
+    "pandas>=2.1.4",
+    "faker>=20.1.0",
+    "psycopg2-binary>=2.9.9",
+    "pymongo>=4.6.1",
+    "neo4j>=5.15.0",
+    # Hugging Face & LLM
+    "transformers>=4.36.2",
+    "torch>=2.1.2",
+    "accelerate>=0.25.0",
+    "sentencepiece>=0.1.99",
+    "protobuf>=4.25.1",
+    # UI
+    "streamlit>=1.29.0",
+    "streamlit-chat>=0.1.1",
+    # Utilities
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "isort>=5.12.0",
+    "mypy>=1.0.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["agents", "config", "database", "llm", "ui", "scripts"]
+
+[tool.black]
+line-length = 88
+target-version = ["py39"]
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
