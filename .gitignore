@@ -157,12 +157,3 @@ synthetic_data/*.csv
 *.db
 *.sqlite
 logs/
-
-# Streamlit
-.streamlit/
-
-# Local config and secrets
-# Use config/*.local.py for local overrides; add secrets.* for any secret files
-config/*.local.py
-secrets.*
-.env.local

@@ -1,5 +1,3 @@
-
-
 import sys
 import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -49,6 +47,28 @@ def execute_schema(db_name, schema_file):
     conn.close()
     print(f"✅ Schema executed on {db_name}")
 
+
+def apply_schema_fixes(db_name):
+    """Apply schema migrations/fixes to existing databases"""
+    print(f"🔧 Applying schema fixes to {db_name}...")
+    params = POSTGRES_CONFIG.copy()
+    params['database'] = db_name
+
+    conn = psycopg2.connect(**params)
+    cursor = conn.cursor()
+
+    try:
+        if db_name == 'store_catalog':
+            # Allow longer phone numbers / extensions in suppliers
+            cursor.execute("ALTER TABLE suppliers ALTER COLUMN contact_phone TYPE VARCHAR(50);")
+        conn.commit()
+        print(f"✅ Applied schema fixes to {db_name}")
+    except Exception as e:
+        print(f"⚠️  Warning applying schema fixes to {db_name}: {e}")
+    finally:
+        cursor.close()
+        conn.close()
+
 def load_csv_to_postgres(db_name, table_name, csv_file):
     """Load CSV data into PostgreSQL table"""
     params = POSTGRES_CONFIG.copy()
@@ -63,14 +83,51 @@ def load_csv_to_postgres(db_name, table_name, csv_file):
     placeholders = ', '.join(['%s'] * len(df.columns))
     insert_sql = f"INSERT INTO {table_name} ({columns}) VALUES ({placeholders})"
     
-    for _, row in df.iterrows():
-        cursor.execute(insert_sql, tuple(row))
+    for idx, row in df.iterrows():
+        try:
+            cursor.execute(insert_sql, tuple(row))
+        except psycopg2.DataError as e:
+            conn.rollback()
+            print(f"⚠️  Data error on row {idx} inserting into {db_name}.{table_name}: {e}")
+            print(f"Row data: {tuple(row)}")
+            raise
+        except psycopg2.IntegrityError as e:
+            conn.rollback()
+            print(f"⚠️  Integrity error on row {idx} inserting into {db_name}.{table_name}: {e}")
+            print(f"Row data: {tuple(row)}")
+            raise
     
     conn.commit()
     cursor.close()
     conn.close()
     
     print(f"✅ Loaded {len(df)} rows into {db_name}.{table_name}")
+
+def clear_existing_data(db_name):
+    """Clear all data from tables before loading new data"""
+    print(f"🗑️  Clearing existing data from {db_name}...")
+    
+    params = POSTGRES_CONFIG.copy()
+    params['database'] = db_name
+    
+    conn = psycopg2.connect(**params)
+    cursor = conn.cursor()
+    
+    try:
+        if db_name == 'store_catalog':
+            cursor.execute("TRUNCATE TABLE product_suppliers, product_locations, products, suppliers, locations CASCADE;")
+        elif db_name == 'inventory_mgmt':
+            cursor.execute("TRUNCATE TABLE order_items, orders, inventory CASCADE;")
+        elif db_name == 'expiry_tracking':
+            cursor.execute("TRUNCATE TABLE batches CASCADE;")
+        
+        conn.commit()
+        print(f"✅ Cleared existing data from {db_name}")
+    except Exception as e:
+        print(f"⚠️  Warning: {e}")
+    finally:
+        cursor.close()
+        conn.close()    
 
 def setup_postgresql():
     """Main setup function for PostgreSQL"""
@@ -81,6 +138,8 @@ def setup_postgresql():
     
     # Execute schemas
     execute_schema('store_catalog', 'schemas/store_catalog_schema.sql')
+    # Apply any necessary schema migrations/fixes for existing DBs
+    apply_schema_fixes('store_catalog')
     execute_schema('inventory_mgmt', 'schemas/inventory_mgmt_schema.sql')
     execute_schema('expiry_tracking', 'schemas/expiry_tracking_schema.sql')
     
@@ -88,6 +147,11 @@ def setup_postgresql():
     data_dir = 'synthetic_data'
     
     print("\n🔄 Loading data into databases...")
+    
+    # Clear existing data to make setup idempotent
+    clear_existing_data('store_catalog')
+    clear_existing_data('inventory_mgmt')
+    clear_existing_data('expiry_tracking')
     
     # Store Catalog DB
     print("\n📚 Loading Store Catalog...")

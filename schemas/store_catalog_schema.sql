@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS suppliers (
     supplier_id VARCHAR(20) PRIMARY KEY,
     name VARCHAR(100),
     contact_email VARCHAR(100),
-    contact_phone VARCHAR(20),
+    contact_phone VARCHAR(50),
     address TEXT,
     reliability_score DECIMAL(3,2),
     average_lead_time_days INT
