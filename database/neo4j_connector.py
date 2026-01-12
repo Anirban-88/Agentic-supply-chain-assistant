@@ -1,5 +1,3 @@
-# database/neo4j_connector.py
-
 from neo4j import GraphDatabase
 from typing import List, Dict, Any, Optional
 from config.neo4j_config import NEO4J_CONFIG
@@ -39,15 +37,23 @@ class Neo4jConnector:
         if not self.driver:
             self.connect()
         
+        logger.info(f"Executing Cypher query with parameters: {parameters}")
+        logger.debug(f"Query: {query}")
+        
         try:
             with self.driver.session() as session:
                 result = session.run(query, parameters or {})
                 records = [dict(record) for record in result]
+                logger.info(f"Query returned {len(records)} records")
+                if records:
+                    logger.debug(f"First record: {records[0]}")
                 return records
         except Exception as e:
             logger.error(f"Query execution error: {e}")
             logger.error(f"Query: {query}")
             logger.error(f"Parameters: {parameters}")
+            import traceback
+            logger.error(traceback.format_exc())
             return []
     
     def execute_read(self, query: str, parameters: Optional[Dict] = None) -> List[Dict[str, Any]]:

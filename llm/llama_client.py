@@ -1,5 +1,3 @@
-# llm/llama_client.py
-
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 import torch
 import os
@@ -25,6 +23,15 @@ class LlamaClient:
         self.max_length = LLAMA_CONFIG['max_length']
         self.temperature = LLAMA_CONFIG['temperature']
         
+        # Auto-detect best available device
+        if self.device == 'auto' or not self.device:
+            if torch.cuda.is_available():
+                self.device = 'cuda'
+            elif torch.backends.mps.is_available():
+                self.device = 'mps'
+            else:
+                self.device = 'cpu'
+        
         logger.info(f"🦙 Loading Llama model: {self.model_name}")
         logger.info(f"🔧 Device: {self.device}")
         
@@ -43,16 +50,31 @@ class LlamaClient:
                 token=hf_token
             )
             
+            # Determine torch dtype and device map based on device
+            if self.device == 'cuda':
+                torch_dtype = torch.float16
+                device_map = 'auto'
+            elif self.device == 'mps':
+                torch_dtype = torch.float16
+                device_map = None  # MPS doesn't support device_map='auto'
+            else:
+                torch_dtype = torch.float32
+                device_map = None
+            
             # Load model
             self.model = AutoModelForCausalLM.from_pretrained(
                 self.model_name,
-                torch_dtype=torch.float16 if self.device == 'cuda' else torch.float32,
-                device_map='auto' if self.device == 'cuda' else None,
+                torch_dtype=torch_dtype,
+                device_map=device_map,
                 trust_remote_code=True,
-                token=hf_token
+                token=hf_token,
+                low_cpu_mem_usage=True  # Optimize memory usage
             )
             
-            if self.device == 'cpu':
+            # Move to device if not using device_map
+            if device_map is None and self.device != 'cpu':
+                self.model = self.model.to(self.device)
+            elif self.device == 'cpu':
                 self.model = self.model.to('cpu')
             
             # Create pipeline
@@ -164,14 +186,38 @@ Category:"""
         """
         Extract specific entity from query (e.g., product name, batch ID)
         """
-        prompt = f"""Extract the {entity_type} from this query. Return ONLY the {entity_type}, nothing else.
+        # Improved prompt with examples
+        prompt = f"""You are extracting information from a user query about products in a supply chain system.
 
-Query: {query}
+Task: Extract the {entity_type} from the query below.
+
+Rules:
+- Return ONLY the extracted value, nothing else
+- For product IDs (format: P0001, P0002, etc.), return the exact ID
+- For product names, return the actual product name mentioned
+- If multiple options exist, return the most relevant one
+- Do not include quotes or extra text
+
+Query: "{query}"
 
 {entity_type}:"""
         
+        logger.info(f"🔍 Extracting '{entity_type}' from: '{query}'")
+        logger.debug(f"Extraction prompt: {prompt}")
+        
         response = self.generate(prompt, max_new_tokens=30)
-        return response.strip()
+        extracted = response.strip().strip('"').strip("'")
+        
+        logger.info(f"✅ Extracted: '{extracted}'")
+        
+        # Log to LLM-specific file for detailed tracking
+        llm_logger = logging.getLogger('llm.llama_client')
+        llm_logger.debug(f"Query: {query}")
+        llm_logger.debug(f"Entity Type: {entity_type}")
+        llm_logger.debug(f"Extracted: {extracted}")
+        llm_logger.debug("-" * 60)
+        
+        return extracted
     
     def summarize_results(self, query: str, results: List[Dict], max_items: int = 5) -> str:
         """

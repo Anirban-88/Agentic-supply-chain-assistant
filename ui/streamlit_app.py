@@ -1,15 +1,17 @@
-
-
 import streamlit as st
 import sys
 import os
+import requests
+import json
 
 # Add parent directory to path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from agents.orchestrator import get_orchestrator
-import json
 import pandas as pd
+
+# MCP Server Configuration
+ORCHESTRATOR_URL = os.getenv('ORCHESTRATOR_URL', 'http://localhost:8000')
+USE_MCP_SERVERS = os.getenv('USE_MCP_SERVERS', 'true').lower() == 'true'
 
 # Page configuration
 st.set_page_config(
@@ -67,13 +69,77 @@ st.markdown("""
 if 'messages' not in st.session_state:
     st.session_state.messages = []
 
-if 'orchestrator' not in st.session_state:
-    with st.spinner("🚀 Initializing AI Agents..."):
-        st.session_state.orchestrator = get_orchestrator()
+if 'use_mcp' not in st.session_state:
+    st.session_state.use_mcp = USE_MCP_SERVERS
+
+# Only initialize orchestrator if not using MCP servers
+if not st.session_state.use_mcp:
+    if 'orchestrator' not in st.session_state:
+        with st.spinner("🚀 Initializing AI Agents..."):
+            from agents.orchestrator import get_orchestrator
+            st.session_state.orchestrator = get_orchestrator()
+
+
+def query_mcp_server(query: str) -> dict:
+    """Query the MCP orchestrator server via HTTP"""
+    try:
+        response = requests.post(
+            f"{ORCHESTRATOR_URL}/query",
+            json={"query": query},
+            timeout=120
+        )
+        response.raise_for_status()
+        data = response.json()
+        
+        # Extract the result from MCP server response
+        if 'result' in data:
+            return data['result']
+        return data
+        
+    except requests.exceptions.ConnectionError:
+        return {
+            'status': 'error',
+            'message': f'Cannot connect to MCP server at {ORCHESTRATOR_URL}. Please ensure the servers are running with: python scripts/10_start_mcp_servers.py --subprocess'
+        }
+    except requests.exceptions.Timeout:
+        return {
+            'status': 'error',
+            'message': 'Request timed out. The query may be taking too long to process.'
+        }
+    except Exception as e:
+        return {
+            'status': 'error',
+            'message': f'Error querying MCP server: {str(e)}'
+        }
+
+
+def process_query(query: str) -> dict:
+    """Process query using either MCP server or direct orchestrator"""
+    if st.session_state.use_mcp:
+        return query_mcp_server(query)
+    else:
+        return st.session_state.orchestrator.process_query(query)
 
 # Sidebar
 with st.sidebar:
-    st.image("app_logo.png", width='stretch')
+    st.image("app_logo.png", use_container_width=True)
+    
+    # Mode selector
+    st.markdown("## ⚙️ Configuration")
+    use_mcp = st.toggle("Use MCP Servers", value=st.session_state.use_mcp, 
+                        help="Enable to use distributed MCP servers (port 8000), disable for direct in-process calls")
+    if use_mcp != st.session_state.use_mcp:
+        st.session_state.use_mcp = use_mcp
+        st.rerun()
+    
+    if st.session_state.use_mcp:
+        st.success("🌐 Using MCP Servers")
+        st.caption(f"Orchestrator: {ORCHESTRATOR_URL}")
+    else:
+        st.info("💻 Using Direct Mode")
+        st.caption("In-process agents")
+    
+    st.markdown("---")
     
     st.markdown("## 🤖 Active Agents")
     st.markdown("""
@@ -89,7 +155,7 @@ with st.sidebar:
     
     sample_queries = [
         "Show products with low stock",
-        "What is the price of Cut Box?",
+        "What is the price of milk?",
         "Show active shipments",
         "Which products are expiring soon?",
         "Where is bread located?",
@@ -147,7 +213,7 @@ if prompt := st.chat_input("Ask about products, inventory, shipments, or expiry.
     # Process query
     with st.chat_message("assistant"):
         with st.spinner("🤔 Thinking..."):
-            response = st.session_state.orchestrator.process_query(prompt)
+            response = process_query(prompt)
         
         # Format response based on status
         if response['status'] == 'success':
@@ -240,7 +306,7 @@ if 'current_query' in st.session_state:
     st.session_state.messages.append({"role": "user", "content": query})
     
     # Process
-    response = st.session_state.orchestrator.process_query(query)
+    response = process_query(query)
     
     if response['status'] == 'success':
         content = response.get('unified_summary', response.get('summary', 'Response received'))

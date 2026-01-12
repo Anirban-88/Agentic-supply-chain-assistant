@@ -1,5 +1,3 @@
-
-
 from agents.base_agent import BaseAgent
 from typing import Dict, Any, List
 import logging
@@ -147,13 +145,18 @@ class ProductAgent(BaseAgent):
     
     def _search_products(self, query: str) -> Dict[str, Any]:
         """General product search"""
-        search_term = self.llm.extract_entity(query, "search term")
+        search_term = self.llm.extract_entity(query, "product ID or product name")
+        
+        logger.info(f"Product Agent searching for: '{search_term}'")
         
         cypher = """
         MATCH (p:Product)
-        WHERE toLower(p.name) CONTAINS toLower($search_term)
+        WHERE p.product_id = $search_term
+           OR toLower(p.name) CONTAINS toLower($search_term)
            OR toLower(p.category) CONTAINS toLower($search_term)
-        RETURN p.product_id, p.name, p.category, p.brand, p.base_price
+        OPTIONAL MATCH (p)-[:HAS_INVENTORY]->(i:Inventory)
+        RETURN p.product_id, p.name, p.category, p.brand, p.base_price,
+               i.quantity as stock, i.reorder_level
         LIMIT 10
         """
         

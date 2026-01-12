@@ -1,5 +1,3 @@
-
-
 from abc import ABC, abstractmethod
 from typing import Dict, Any, List
 from llm.llama_client import get_llama_client
@@ -71,8 +69,12 @@ class BaseAgent(ABC):
     def execute_cypher(self, cypher: str, parameters: Dict = None) -> List[Dict]:
         """Execute Cypher query via Neo4j"""
         try:
+            logger.info(f"{self.name} executing Cypher with params: {parameters}")
             results = self.neo4j.execute_query(cypher, parameters)
+            logger.info(f"{self.name} got {len(results) if results else 0} results")
             return results
         except Exception as e:
             logger.error(f"Cypher execution error in {self.name}: {e}")
+            import traceback
+            logger.error(traceback.format_exc())
             return []

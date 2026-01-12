@@ -5,672 +5,392 @@
     "location": "Mumbai",
     "products": [
       {
-        "product_id": "P0063",
-        "quantity": 4872,
-        "reserved": 714,
-        "available": 4158,
-        "last_updated": "2026-01-06T20:03:34.423956"
-      },
-      {
-        "product_id": "P0022",
-        "quantity": 4063,
-        "reserved": 402,
-        "available": 3661,
-        "last_updated": "2026-01-06T20:03:34.423972"
-      },
-      {
-        "product_id": "P0012",
-        "quantity": 6283,
-        "reserved": 389,
-        "available": 5894,
-        "last_updated": "2026-01-06T20:03:34.423986"
-      },
-      {
-        "product_id": "P0093",
-        "quantity": 9907,
-        "reserved": 915,
-        "available": 8992,
-        "last_updated": "2026-01-06T20:03:34.423999"
-      },
-      {
-        "product_id": "P0059",
-        "quantity": 7927,
-        "reserved": 385,
-        "available": 7542,
-        "last_updated": "2026-01-06T20:03:34.424012"
+        "product_id": "P0094",
+        "quantity": 9127,
+        "reserved": 1035,
+        "available": 8092,
+        "last_updated": "2026-01-08T22:49:07.464465"
       },
       {
         "product_id": "P0083",
-        "quantity": 6852,
-        "reserved": 625,
-        "available": 6227,
-        "last_updated": "2026-01-06T20:03:34.424024"
-      },
-      {
-        "product_id": "P0040",
-        "quantity": 6751,
-        "reserved": 1149,
-        "available": 5602,
-        "last_updated": "2026-01-06T20:03:34.424035"
-      },
-      {
-        "product_id": "P0042",
-        "quantity": 4956,
-        "reserved": 573,
-        "available": 4383,
-        "last_updated": "2026-01-06T20:03:34.424047"
-      },
-      {
-        "product_id": "P0045",
-        "quantity": 6591,
-        "reserved": 433,
-        "available": 6158,
-        "last_updated": "2026-01-06T20:03:34.424058"
-      },
-      {
-        "product_id": "P0009",
-        "quantity": 2809,
-        "reserved": 451,
-        "available": 2358,
-        "last_updated": "2026-01-06T20:03:34.424070"
-      },
-      {
-        "product_id": "P0038",
-        "quantity": 6679,
-        "reserved": 1021,
-        "available": 5658,
-        "last_updated": "2026-01-06T20:03:34.424081"
-      },
-      {
-        "product_id": "P0094",
-        "quantity": 8364,
-        "reserved": 1421,
-        "available": 6943,
-        "last_updated": "2026-01-06T20:03:34.424092"
-      },
-      {
-        "product_id": "P0100",
-        "quantity": 4042,
-        "reserved": 68,
-        "available": 3974,
-        "last_updated": "2026-01-06T20:03:34.424104"
-      },
-      {
-        "product_id": "P0028",
-        "quantity": 8361,
-        "reserved": 896,
-        "available": 7465,
-        "last_updated": "2026-01-06T20:03:34.424115"
-      },
-      {
-        "product_id": "P0096",
-        "quantity": 9413,
-        "reserved": 729,
-        "available": 8684,
-        "last_updated": "2026-01-06T20:03:34.424127"
-      },
-      {
-        "product_id": "P0032",
-        "quantity": 9243,
-        "reserved": 1031,
-        "available": 8212,
-        "last_updated": "2026-01-06T20:03:34.424138"
-      },
-      {
-        "product_id": "P0058",
-        "quantity": 9972,
-        "reserved": 239,
-        "available": 9733,
-        "last_updated": "2026-01-06T20:03:34.424149"
-      },
-      {
-        "product_id": "P0095",
-        "quantity": 3379,
-        "reserved": 432,
-        "available": 2947,
-        "last_updated": "2026-01-06T20:03:34.424160"
-      },
-      {
-        "product_id": "P0086",
-        "quantity": 5736,
-        "reserved": 1092,
-        "available": 4644,
-        "last_updated": "2026-01-06T20:03:34.424171"
-      },
-      {
-        "product_id": "P0039",
-        "quantity": 2200,
-        "reserved": 383,
-        "available": 1817,
-        "last_updated": "2026-01-06T20:03:34.424182"
-      },
-      {
-        "product_id": "P0044",
-        "quantity": 2117,
-        "reserved": 391,
-        "available": 1726,
-        "last_updated": "2026-01-06T20:03:34.424194"
-      },
-      {
-        "product_id": "P0054",
-        "quantity": 9716,
-        "reserved": 1783,
-        "available": 7933,
-        "last_updated": "2026-01-06T20:03:34.424205"
-      },
-      {
-        "product_id": "P0051",
-        "quantity": 7752,
-        "reserved": 1333,
-        "available": 6419,
-        "last_updated": "2026-01-06T20:03:34.424216"
-      },
-      {
-        "product_id": "P0087",
-        "quantity": 6856,
-        "reserved": 23,
-        "available": 6833,
-        "last_updated": "2026-01-06T20:03:34.424227"
-      },
-      {
-        "product_id": "P0017",
-        "quantity": 8053,
-        "reserved": 912,
-        "available": 7141,
-        "last_updated": "2026-01-06T20:03:34.424238"
-      },
-      {
-        "product_id": "P0075",
-        "quantity": 1372,
-        "reserved": 107,
-        "available": 1265,
-        "last_updated": "2026-01-06T20:03:34.424249"
-      },
-      {
-        "product_id": "P0041",
-        "quantity": 1871,
-        "reserved": 364,
-        "available": 1507,
-        "last_updated": "2026-01-06T20:03:34.424260"
-      },
-      {
-        "product_id": "P0056",
-        "quantity": 1323,
-        "reserved": 143,
-        "available": 1180,
-        "last_updated": "2026-01-06T20:03:34.424271"
-      },
-      {
-        "product_id": "P0027",
-        "quantity": 3519,
-        "reserved": 239,
-        "available": 3280,
-        "last_updated": "2026-01-06T20:03:34.424283"
-      },
-      {
-        "product_id": "P0079",
-        "quantity": 8504,
-        "reserved": 499,
-        "available": 8005,
-        "last_updated": "2026-01-06T20:03:34.424294"
-      },
-      {
-        "product_id": "P0048",
-        "quantity": 4668,
-        "reserved": 36,
-        "available": 4632,
-        "last_updated": "2026-01-06T20:03:34.424305"
-      },
-      {
-        "product_id": "P0062",
-        "quantity": 4479,
-        "reserved": 806,
-        "available": 3673,
-        "last_updated": "2026-01-06T20:03:34.424316"
-      },
-      {
-        "product_id": "P0046",
-        "quantity": 8424,
-        "reserved": 484,
-        "available": 7940,
-        "last_updated": "2026-01-06T20:03:34.424327"
-      },
-      {
-        "product_id": "P0070",
-        "quantity": 5088,
-        "reserved": 575,
-        "available": 4513,
-        "last_updated": "2026-01-06T20:03:34.424338"
-      },
-      {
-        "product_id": "P0033",
-        "quantity": 6503,
-        "reserved": 1223,
-        "available": 5280,
-        "last_updated": "2026-01-06T20:03:34.424349"
-      },
-      {
-        "product_id": "P0037",
-        "quantity": 6972,
-        "reserved": 440,
-        "available": 6532,
-        "last_updated": "2026-01-06T20:03:34.424360"
-      },
-      {
-        "product_id": "P0050",
-        "quantity": 4091,
-        "reserved": 794,
-        "available": 3297,
-        "last_updated": "2026-01-06T20:03:34.424372"
-      },
-      {
-        "product_id": "P0068",
-        "quantity": 8357,
-        "reserved": 90,
-        "available": 8267,
-        "last_updated": "2026-01-06T20:03:34.424383"
-      },
-      {
-        "product_id": "P0098",
-        "quantity": 9315,
-        "reserved": 584,
-        "available": 8731,
-        "last_updated": "2026-01-06T20:03:34.424394"
-      },
-      {
-        "product_id": "P0006",
-        "quantity": 6260,
-        "reserved": 862,
-        "available": 5398,
-        "last_updated": "2026-01-06T20:03:34.424405"
-      },
-      {
-        "product_id": "P0026",
-        "quantity": 9547,
-        "reserved": 335,
-        "available": 9212,
-        "last_updated": "2026-01-06T20:03:34.424416"
-      },
-      {
-        "product_id": "P0052",
-        "quantity": 2666,
-        "reserved": 249,
-        "available": 2417,
-        "last_updated": "2026-01-06T20:03:34.424427"
-      },
-      {
-        "product_id": "P0025",
-        "quantity": 7077,
-        "reserved": 163,
-        "available": 6914,
-        "last_updated": "2026-01-06T20:03:34.424438"
-      },
-      {
-        "product_id": "P0061",
-        "quantity": 4914,
-        "reserved": 23,
-        "available": 4891,
-        "last_updated": "2026-01-06T20:03:34.424449"
-      },
-      {
-        "product_id": "P0014",
-        "quantity": 1733,
-        "reserved": 230,
-        "available": 1503,
-        "last_updated": "2026-01-06T20:03:34.424460"
-      },
-      {
-        "product_id": "P0064",
-        "quantity": 7530,
-        "reserved": 508,
-        "available": 7022,
-        "last_updated": "2026-01-06T20:03:34.424476"
-      },
-      {
-        "product_id": "P0074",
-        "quantity": 8948,
-        "reserved": 689,
-        "available": 8259,
-        "last_updated": "2026-01-06T20:03:34.424487"
-      },
-      {
-        "product_id": "P0015",
-        "quantity": 9423,
-        "reserved": 158,
-        "available": 9265,
-        "last_updated": "2026-01-06T20:03:34.424498"
-      },
-      {
-        "product_id": "P0047",
-        "quantity": 6644,
-        "reserved": 768,
-        "available": 5876,
-        "last_updated": "2026-01-06T20:03:34.424509"
-      },
-      {
-        "product_id": "P0018",
-        "quantity": 1319,
-        "reserved": 62,
-        "available": 1257,
-        "last_updated": "2026-01-06T20:03:34.424520"
-      },
-      {
-        "product_id": "P0088",
-        "quantity": 4117,
-        "reserved": 138,
-        "available": 3979,
-        "last_updated": "2026-01-06T20:03:34.424531"
-      },
-      {
-        "product_id": "P0091",
-        "quantity": 5899,
-        "reserved": 748,
-        "available": 5151,
-        "last_updated": "2026-01-06T20:03:34.424542"
-      },
-      {
-        "product_id": "P0085",
-        "quantity": 4789,
-        "reserved": 761,
-        "available": 4028,
-        "last_updated": "2026-01-06T20:03:34.424554"
-      },
-      {
-        "product_id": "P0072",
-        "quantity": 4784,
-        "reserved": 414,
-        "available": 4370,
-        "last_updated": "2026-01-06T20:03:34.424565"
-      },
-      {
-        "product_id": "P0077",
-        "quantity": 4538,
-        "reserved": 684,
-        "available": 3854,
-        "last_updated": "2026-01-06T20:03:34.424576"
-      },
-      {
-        "product_id": "P0099",
-        "quantity": 5954,
-        "reserved": 427,
-        "available": 5527,
-        "last_updated": "2026-01-06T20:03:34.424587"
-      },
-      {
-        "product_id": "P0005",
-        "quantity": 5574,
-        "reserved": 626,
-        "available": 4948,
-        "last_updated": "2026-01-06T20:03:34.424598"
-      },
-      {
-        "product_id": "P0078",
-        "quantity": 9483,
-        "reserved": 1857,
-        "available": 7626,
-        "last_updated": "2026-01-06T20:03:34.424609"
-      },
-      {
-        "product_id": "P0013",
-        "quantity": 5387,
-        "reserved": 229,
-        "available": 5158,
-        "last_updated": "2026-01-06T20:03:34.424621"
-      },
-      {
-        "product_id": "P0081",
-        "quantity": 7812,
-        "reserved": 119,
-        "available": 7693,
-        "last_updated": "2026-01-06T20:03:34.424632"
-      },
-      {
-        "product_id": "P0030",
-        "quantity": 7758,
-        "reserved": 909,
-        "available": 6849,
-        "last_updated": "2026-01-06T20:03:34.424643"
-      },
-      {
-        "product_id": "P0049",
-        "quantity": 3012,
-        "reserved": 144,
-        "available": 2868,
-        "last_updated": "2026-01-06T20:03:34.424655"
-      },
-      {
-        "product_id": "P0073",
-        "quantity": 2385,
-        "reserved": 401,
-        "available": 1984,
-        "last_updated": "2026-01-06T20:03:34.424667"
-      },
-      {
-        "product_id": "P0057",
-        "quantity": 2398,
-        "reserved": 143,
-        "available": 2255,
-        "last_updated": "2026-01-06T20:03:34.424678"
-      },
-      {
-        "product_id": "P0016",
-        "quantity": 8174,
-        "reserved": 1295,
-        "available": 6879,
-        "last_updated": "2026-01-06T20:03:34.424689"
-      },
-      {
-        "product_id": "P0069",
-        "quantity": 1223,
-        "reserved": 226,
-        "available": 997,
-        "last_updated": "2026-01-06T20:03:34.424700"
-      },
-      {
-        "product_id": "P0021",
-        "quantity": 1699,
-        "reserved": 34,
-        "available": 1665,
-        "last_updated": "2026-01-06T20:03:34.424711"
-      },
-      {
-        "product_id": "P0055",
-        "quantity": 7512,
-        "reserved": 75,
-        "available": 7437,
-        "last_updated": "2026-01-06T20:03:34.424722"
-      },
-      {
-        "product_id": "P0043",
-        "quantity": 7163,
-        "reserved": 233,
-        "available": 6930,
-        "last_updated": "2026-01-06T20:03:34.424735"
-      },
-      {
-        "product_id": "P0065",
-        "quantity": 8605,
-        "reserved": 1641,
-        "available": 6964,
-        "last_updated": "2026-01-06T20:03:34.424746"
-      },
-      {
-        "product_id": "P0066",
-        "quantity": 4740,
-        "reserved": 561,
-        "available": 4179,
-        "last_updated": "2026-01-06T20:03:34.424757"
-      },
-      {
-        "product_id": "P0031",
-        "quantity": 8690,
-        "reserved": 1424,
-        "available": 7266,
-        "last_updated": "2026-01-06T20:03:34.424768"
-      },
-      {
-        "product_id": "P0076",
-        "quantity": 2670,
-        "reserved": 120,
-        "available": 2550,
-        "last_updated": "2026-01-06T20:03:34.424779"
-      },
-      {
-        "product_id": "P0004",
-        "quantity": 6231,
-        "reserved": 535,
-        "available": 5696,
-        "last_updated": "2026-01-06T20:03:34.424790"
-      },
-      {
-        "product_id": "P0010",
-        "quantity": 1278,
-        "reserved": 160,
-        "available": 1118,
-        "last_updated": "2026-01-06T20:03:34.424801"
-      },
-      {
-        "product_id": "P0008",
-        "quantity": 2105,
-        "reserved": 235,
-        "available": 1870,
-        "last_updated": "2026-01-06T20:03:34.424812"
-      },
-      {
-        "product_id": "P0029",
-        "quantity": 3119,
-        "reserved": 478,
-        "available": 2641,
-        "last_updated": "2026-01-06T20:03:34.424823"
-      },
-      {
-        "product_id": "P0034",
-        "quantity": 1087,
-        "reserved": 94,
-        "available": 993,
-        "last_updated": "2026-01-06T20:03:34.424835"
-      },
-      {
-        "product_id": "P0082",
-        "quantity": 8198,
-        "reserved": 1246,
-        "available": 6952,
-        "last_updated": "2026-01-06T20:03:34.424846"
-      },
-      {
-        "product_id": "P0092",
-        "quantity": 1484,
-        "reserved": 237,
-        "available": 1247,
-        "last_updated": "2026-01-06T20:03:34.424857"
-      },
-      {
-        "product_id": "P0023",
-        "quantity": 1093,
-        "reserved": 13,
-        "available": 1080,
-        "last_updated": "2026-01-06T20:03:34.424868"
-      },
-      {
-        "product_id": "P0080",
-        "quantity": 2460,
-        "reserved": 113,
-        "available": 2347,
-        "last_updated": "2026-01-06T20:03:34.424879"
-      },
-      {
-        "product_id": "P0003",
-        "quantity": 1532,
-        "reserved": 190,
-        "available": 1342,
-        "last_updated": "2026-01-06T20:03:34.424890"
-      },
-      {
-        "product_id": "P0035",
-        "quantity": 7042,
-        "reserved": 1246,
-        "available": 5796,
-        "last_updated": "2026-01-06T20:03:34.424901"
-      },
-      {
-        "product_id": "P0001",
-        "quantity": 9917,
-        "reserved": 1318,
-        "available": 8599,
-        "last_updated": "2026-01-06T20:03:34.424912"
-      },
-      {
-        "product_id": "P0060",
-        "quantity": 2237,
-        "reserved": 279,
-        "available": 1958,
-        "last_updated": "2026-01-06T20:03:34.424923"
-      },
-      {
-        "product_id": "P0019",
-        "quantity": 4779,
-        "reserved": 776,
-        "available": 4003,
-        "last_updated": "2026-01-06T20:03:34.424935"
+        "quantity": 3415,
+        "reserved": 409,
+        "available": 3006,
+        "last_updated": "2026-01-08T22:49:07.464483"
       },
       {
         "product_id": "P0036",
-        "quantity": 6248,
-        "reserved": 1158,
-        "available": 5090,
-        "last_updated": "2026-01-06T20:03:34.424946"
+        "quantity": 9575,
+        "reserved": 1905,
+        "available": 7670,
+        "last_updated": "2026-01-08T22:49:07.464506"
       },
       {
-        "product_id": "P0007",
-        "quantity": 7142,
-        "reserved": 341,
-        "available": 6801,
-        "last_updated": "2026-01-06T20:03:34.424957"
+        "product_id": "P0061",
+        "quantity": 4855,
+        "reserved": 46,
+        "available": 4809,
+        "last_updated": "2026-01-08T22:49:07.464519"
       },
       {
-        "product_id": "P0090",
-        "quantity": 1156,
-        "reserved": 199,
-        "available": 957,
-        "last_updated": "2026-01-06T20:03:34.424968"
+        "product_id": "P0054",
+        "quantity": 6081,
+        "reserved": 222,
+        "available": 5859,
+        "last_updated": "2026-01-08T22:49:07.464531"
       },
       {
-        "product_id": "P0002",
-        "quantity": 9499,
-        "reserved": 1183,
-        "available": 8316,
-        "last_updated": "2026-01-06T20:03:34.424979"
+        "product_id": "P0023",
+        "quantity": 8848,
+        "reserved": 223,
+        "available": 8625,
+        "last_updated": "2026-01-08T22:49:07.464543"
       },
       {
-        "product_id": "P0084",
-        "quantity": 2036,
-        "reserved": 190,
-        "available": 1846,
-        "last_updated": "2026-01-06T20:03:34.424990"
+        "product_id": "P0097",
+        "quantity": 5384,
+        "reserved": 427,
+        "available": 4957,
+        "last_updated": "2026-01-08T22:49:07.464554"
       },
       {
-        "product_id": "P0071",
-        "quantity": 2053,
-        "reserved": 359,
-        "available": 1694,
-        "last_updated": "2026-01-06T20:03:34.425001"
+        "product_id": "P0032",
+        "quantity": 7136,
+        "reserved": 934,
+        "available": 6202,
+        "last_updated": "2026-01-08T22:49:07.464566"
       },
       {
-        "product_id": "P0020",
-        "quantity": 1062,
-        "reserved": 93,
-        "available": 969,
-        "last_updated": "2026-01-06T20:03:34.425013"
+        "product_id": "P0050",
+        "quantity": 9049,
+        "reserved": 48,
+        "available": 9001,
+        "last_updated": "2026-01-08T22:49:07.464586"
+      },
+      {
+        "product_id": "P0019",
+        "quantity": 1416,
+        "reserved": 251,
+        "available": 1165,
+        "last_updated": "2026-01-08T22:49:07.464598"
       },
       {
         "product_id": "P0053",
-        "quantity": 4395,
-        "reserved": 715,
-        "available": 3680,
-        "last_updated": "2026-01-06T20:03:34.425024"
+        "quantity": 9755,
+        "reserved": 215,
+        "available": 9540,
+        "last_updated": "2026-01-08T22:49:07.464609"
+      },
+      {
+        "product_id": "P0052",
+        "quantity": 5190,
+        "reserved": 190,
+        "available": 5000,
+        "last_updated": "2026-01-08T22:49:07.464620"
+      },
+      {
+        "product_id": "P0039",
+        "quantity": 2149,
+        "reserved": 214,
+        "available": 1935,
+        "last_updated": "2026-01-08T22:49:07.464632"
+      },
+      {
+        "product_id": "P0056",
+        "quantity": 2368,
+        "reserved": 434,
+        "available": 1934,
+        "last_updated": "2026-01-08T22:49:07.464643"
+      },
+      {
+        "product_id": "P0007",
+        "quantity": 8855,
+        "reserved": 1325,
+        "available": 7530,
+        "last_updated": "2026-01-08T22:49:07.464654"
+      },
+      {
+        "product_id": "P0062",
+        "quantity": 9315,
+        "reserved": 1017,
+        "available": 8298,
+        "last_updated": "2026-01-08T22:49:07.464666"
+      },
+      {
+        "product_id": "P0091",
+        "quantity": 4902,
+        "reserved": 904,
+        "available": 3998,
+        "last_updated": "2026-01-08T22:49:07.464677"
+      },
+      {
+        "product_id": "P0043",
+        "quantity": 9341,
+        "reserved": 724,
+        "available": 8617,
+        "last_updated": "2026-01-08T22:49:07.464688"
+      },
+      {
+        "product_id": "P0080",
+        "quantity": 9868,
+        "reserved": 1226,
+        "available": 8642,
+        "last_updated": "2026-01-08T22:49:07.464700"
+      },
+      {
+        "product_id": "P0090",
+        "quantity": 4963,
+        "reserved": 331,
+        "available": 4632,
+        "last_updated": "2026-01-08T22:49:07.464711"
+      },
+      {
+        "product_id": "P0075",
+        "quantity": 1193,
+        "reserved": 212,
+        "available": 981,
+        "last_updated": "2026-01-08T22:49:07.464722"
+      },
+      {
+        "product_id": "P0055",
+        "quantity": 2971,
+        "reserved": 197,
+        "available": 2774,
+        "last_updated": "2026-01-08T22:49:07.464733"
+      },
+      {
+        "product_id": "P0041",
+        "quantity": 4689,
+        "reserved": 468,
+        "available": 4221,
+        "last_updated": "2026-01-08T22:49:07.464745"
+      },
+      {
+        "product_id": "P0058",
+        "quantity": 4427,
+        "reserved": 821,
+        "available": 3606,
+        "last_updated": "2026-01-08T22:49:07.464756"
+      },
+      {
+        "product_id": "P0059",
+        "quantity": 3271,
+        "reserved": 271,
+        "available": 3000,
+        "last_updated": "2026-01-08T22:49:07.464767"
+      },
+      {
+        "product_id": "P0077",
+        "quantity": 2033,
+        "reserved": 285,
+        "available": 1748,
+        "last_updated": "2026-01-08T22:49:07.464779"
+      },
+      {
+        "product_id": "P0087",
+        "quantity": 6825,
+        "reserved": 1247,
+        "available": 5578,
+        "last_updated": "2026-01-08T22:49:07.464790"
+      },
+      {
+        "product_id": "P0010",
+        "quantity": 5797,
+        "reserved": 197,
+        "available": 5600,
+        "last_updated": "2026-01-08T22:49:07.464801"
+      },
+      {
+        "product_id": "P0066",
+        "quantity": 2266,
+        "reserved": 423,
+        "available": 1843,
+        "last_updated": "2026-01-08T22:49:07.464812"
+      },
+      {
+        "product_id": "P0033",
+        "quantity": 2497,
+        "reserved": 428,
+        "available": 2069,
+        "last_updated": "2026-01-08T22:49:07.464824"
+      },
+      {
+        "product_id": "P0005",
+        "quantity": 6429,
+        "reserved": 555,
+        "available": 5874,
+        "last_updated": "2026-01-08T22:49:07.464835"
+      },
+      {
+        "product_id": "P0044",
+        "quantity": 9293,
+        "reserved": 1041,
+        "available": 8252,
+        "last_updated": "2026-01-08T22:49:07.464846"
+      },
+      {
+        "product_id": "P0074",
+        "quantity": 2021,
+        "reserved": 306,
+        "available": 1715,
+        "last_updated": "2026-01-08T22:49:07.464858"
+      },
+      {
+        "product_id": "P0013",
+        "quantity": 5082,
+        "reserved": 618,
+        "available": 4464,
+        "last_updated": "2026-01-08T22:49:07.464869"
+      },
+      {
+        "product_id": "P0017",
+        "quantity": 8749,
+        "reserved": 1663,
+        "available": 7086,
+        "last_updated": "2026-01-08T22:49:07.464880"
+      },
+      {
+        "product_id": "P0093",
+        "quantity": 9616,
+        "reserved": 234,
+        "available": 9382,
+        "last_updated": "2026-01-08T22:49:07.464892"
+      },
+      {
+        "product_id": "P0027",
+        "quantity": 9872,
+        "reserved": 1767,
+        "available": 8105,
+        "last_updated": "2026-01-08T22:49:07.464903"
+      },
+      {
+        "product_id": "P0084",
+        "quantity": 7744,
+        "reserved": 914,
+        "available": 6830,
+        "last_updated": "2026-01-08T22:49:07.464914"
+      },
+      {
+        "product_id": "P0026",
+        "quantity": 3056,
+        "reserved": 52,
+        "available": 3004,
+        "last_updated": "2026-01-08T22:49:07.464925"
+      },
+      {
+        "product_id": "P0012",
+        "quantity": 6927,
+        "reserved": 1185,
+        "available": 5742,
+        "last_updated": "2026-01-08T22:49:07.464936"
+      },
+      {
+        "product_id": "P0092",
+        "quantity": 9828,
+        "reserved": 1831,
+        "available": 7997,
+        "last_updated": "2026-01-08T22:49:07.464948"
+      },
+      {
+        "product_id": "P0047",
+        "quantity": 8748,
+        "reserved": 1643,
+        "available": 7105,
+        "last_updated": "2026-01-08T22:49:07.464959"
+      },
+      {
+        "product_id": "P0086",
+        "quantity": 5979,
+        "reserved": 738,
+        "available": 5241,
+        "last_updated": "2026-01-08T22:49:07.464970"
+      },
+      {
+        "product_id": "P0060",
+        "quantity": 9584,
+        "reserved": 1287,
+        "available": 8297,
+        "last_updated": "2026-01-08T22:49:07.464982"
+      },
+      {
+        "product_id": "P0070",
+        "quantity": 2595,
+        "reserved": 264,
+        "available": 2331,
+        "last_updated": "2026-01-08T22:49:07.464993"
+      },
+      {
+        "product_id": "P0100",
+        "quantity": 5645,
+        "reserved": 37,
+        "available": 5608,
+        "last_updated": "2026-01-08T22:49:07.465004"
+      },
+      {
+        "product_id": "P0004",
+        "quantity": 4058,
+        "reserved": 105,
+        "available": 3953,
+        "last_updated": "2026-01-08T22:49:07.465020"
+      },
+      {
+        "product_id": "P0006",
+        "quantity": 8860,
+        "reserved": 753,
+        "available": 8107,
+        "last_updated": "2026-01-08T22:49:07.465031"
+      },
+      {
+        "product_id": "P0034",
+        "quantity": 2004,
+        "reserved": 274,
+        "available": 1730,
+        "last_updated": "2026-01-08T22:49:07.465043"
+      },
+      {
+        "product_id": "P0016",
+        "quantity": 9211,
+        "reserved": 1445,
+        "available": 7766,
+        "last_updated": "2026-01-08T22:49:07.465055"
+      },
+      {
+        "product_id": "P0068",
+        "quantity": 5982,
+        "reserved": 81,
+        "available": 5901,
+        "last_updated": "2026-01-08T22:49:07.465066"
+      },
+      {
+        "product_id": "P0040",
+        "quantity": 8985,
+        "reserved": 1786,
+        "available": 7199,
+        "last_updated": "2026-01-08T22:49:07.465078"
+      },
+      {
+        "product_id": "P0037",
+        "quantity": 4154,
+        "reserved": 170,
+        "available": 3984,
+        "last_updated": "2026-01-08T22:49:07.465089"
+      },
+      {
+        "product_id": "P0028",
+        "quantity": 2728,
+        "reserved": 214,
+        "available": 2514,
+        "last_updated": "2026-01-08T22:49:07.465101"
+      },
+      {
+        "product_id": "P0078",
+        "quantity": 4374,
+        "reserved": 492,
+        "available": 3882,
+        "last_updated": "2026-01-08T22:49:07.465112"
       }
     ],
-    "last_updated": "2026-01-06T20:03:34.425025"
+    "last_updated": "2026-01-08T22:49:07.465113"
   },
   {
     "warehouse_id": "WH002",
@@ -678,616 +398,637 @@
     "location": "Delhi",
     "products": [
       {
-        "product_id": "P0013",
-        "quantity": 2256,
-        "reserved": 3,
-        "available": 2253,
-        "last_updated": "2026-01-06T20:03:34.425135"
-      },
-      {
-        "product_id": "P0020",
-        "quantity": 3917,
-        "reserved": 265,
-        "available": 3652,
-        "last_updated": "2026-01-06T20:03:34.425150"
-      },
-      {
-        "product_id": "P0093",
-        "quantity": 5958,
-        "reserved": 268,
-        "available": 5690,
-        "last_updated": "2026-01-06T20:03:34.425162"
-      },
-      {
-        "product_id": "P0012",
-        "quantity": 2384,
-        "reserved": 213,
-        "available": 2171,
-        "last_updated": "2026-01-06T20:03:34.425174"
-      },
-      {
-        "product_id": "P0087",
-        "quantity": 6725,
-        "reserved": 1078,
-        "available": 5647,
-        "last_updated": "2026-01-06T20:03:34.425187"
-      },
-      {
-        "product_id": "P0007",
-        "quantity": 1130,
-        "reserved": 82,
-        "available": 1048,
-        "last_updated": "2026-01-06T20:03:34.425198"
-      },
-      {
-        "product_id": "P0002",
-        "quantity": 3024,
-        "reserved": 290,
-        "available": 2734,
-        "last_updated": "2026-01-06T20:03:34.425209"
-      },
-      {
-        "product_id": "P0038",
-        "quantity": 4370,
-        "reserved": 615,
-        "available": 3755,
-        "last_updated": "2026-01-06T20:03:34.425221"
-      },
-      {
-        "product_id": "P0074",
-        "quantity": 3017,
-        "reserved": 381,
-        "available": 2636,
-        "last_updated": "2026-01-06T20:03:34.425232"
-      },
-      {
-        "product_id": "P0005",
-        "quantity": 8276,
-        "reserved": 575,
-        "available": 7701,
-        "last_updated": "2026-01-06T20:03:34.425243"
-      },
-      {
-        "product_id": "P0091",
-        "quantity": 8624,
-        "reserved": 1197,
-        "available": 7427,
-        "last_updated": "2026-01-06T20:03:34.425254"
-      },
-      {
-        "product_id": "P0025",
-        "quantity": 2222,
-        "reserved": 424,
-        "available": 1798,
-        "last_updated": "2026-01-06T20:03:34.425265"
-      },
-      {
-        "product_id": "P0004",
-        "quantity": 7991,
-        "reserved": 270,
-        "available": 7721,
-        "last_updated": "2026-01-06T20:03:34.425277"
-      },
-      {
-        "product_id": "P0056",
-        "quantity": 8267,
-        "reserved": 656,
-        "available": 7611,
-        "last_updated": "2026-01-06T20:03:34.425288"
-      },
-      {
-        "product_id": "P0023",
-        "quantity": 1083,
-        "reserved": 103,
-        "available": 980,
-        "last_updated": "2026-01-06T20:03:34.425299"
-      },
-      {
-        "product_id": "P0018",
-        "quantity": 2883,
-        "reserved": 100,
-        "available": 2783,
-        "last_updated": "2026-01-06T20:03:34.425310"
-      },
-      {
-        "product_id": "P0057",
-        "quantity": 7109,
-        "reserved": 129,
-        "available": 6980,
-        "last_updated": "2026-01-06T20:03:34.425322"
-      },
-      {
-        "product_id": "P0089",
-        "quantity": 6298,
-        "reserved": 162,
-        "available": 6136,
-        "last_updated": "2026-01-06T20:03:34.425333"
-      },
-      {
-        "product_id": "P0059",
-        "quantity": 1063,
-        "reserved": 34,
-        "available": 1029,
-        "last_updated": "2026-01-06T20:03:34.425345"
-      },
-      {
-        "product_id": "P0099",
-        "quantity": 5132,
-        "reserved": 907,
-        "available": 4225,
-        "last_updated": "2026-01-06T20:03:34.425357"
-      },
-      {
-        "product_id": "P0054",
-        "quantity": 7476,
-        "reserved": 1089,
-        "available": 6387,
-        "last_updated": "2026-01-06T20:03:34.425368"
-      },
-      {
-        "product_id": "P0032",
-        "quantity": 8652,
-        "reserved": 281,
-        "available": 8371,
-        "last_updated": "2026-01-06T20:03:34.425380"
-      },
-      {
-        "product_id": "P0041",
-        "quantity": 8643,
-        "reserved": 1698,
-        "available": 6945,
-        "last_updated": "2026-01-06T20:03:34.425391"
-      },
-      {
-        "product_id": "P0046",
-        "quantity": 9415,
-        "reserved": 181,
-        "available": 9234,
-        "last_updated": "2026-01-06T20:03:34.425402"
-      },
-      {
-        "product_id": "P0009",
-        "quantity": 4938,
-        "reserved": 827,
-        "available": 4111,
-        "last_updated": "2026-01-06T20:03:34.425413"
-      },
-      {
-        "product_id": "P0080",
-        "quantity": 1749,
-        "reserved": 65,
-        "available": 1684,
-        "last_updated": "2026-01-06T20:03:34.425424"
-      },
-      {
-        "product_id": "P0045",
-        "quantity": 4136,
-        "reserved": 451,
-        "available": 3685,
-        "last_updated": "2026-01-06T20:03:34.425435"
-      },
-      {
-        "product_id": "P0092",
-        "quantity": 7005,
-        "reserved": 834,
-        "available": 6171,
-        "last_updated": "2026-01-06T20:03:34.425447"
-      },
-      {
-        "product_id": "P0079",
-        "quantity": 2660,
-        "reserved": 92,
-        "available": 2568,
-        "last_updated": "2026-01-06T20:03:34.425458"
-      },
-      {
-        "product_id": "P0078",
-        "quantity": 9338,
-        "reserved": 1045,
-        "available": 8293,
-        "last_updated": "2026-01-06T20:03:34.425469"
-      },
-      {
-        "product_id": "P0075",
-        "quantity": 3812,
-        "reserved": 367,
-        "available": 3445,
-        "last_updated": "2026-01-06T20:03:34.425480"
-      },
-      {
-        "product_id": "P0088",
-        "quantity": 1377,
-        "reserved": 85,
-        "available": 1292,
-        "last_updated": "2026-01-06T20:03:34.425492"
-      },
-      {
-        "product_id": "P0040",
-        "quantity": 2744,
-        "reserved": 26,
-        "available": 2718,
-        "last_updated": "2026-01-06T20:03:34.425503"
-      },
-      {
-        "product_id": "P0001",
-        "quantity": 6585,
-        "reserved": 1010,
-        "available": 5575,
-        "last_updated": "2026-01-06T20:03:34.425514"
-      },
-      {
-        "product_id": "P0085",
-        "quantity": 8642,
-        "reserved": 400,
-        "available": 8242,
-        "last_updated": "2026-01-06T20:03:34.425525"
-      },
-      {
-        "product_id": "P0008",
-        "quantity": 5591,
-        "reserved": 1103,
-        "available": 4488,
-        "last_updated": "2026-01-06T20:03:34.425537"
-      },
-      {
-        "product_id": "P0098",
-        "quantity": 3393,
-        "reserved": 678,
-        "available": 2715,
-        "last_updated": "2026-01-06T20:03:34.425548"
-      },
-      {
-        "product_id": "P0052",
-        "quantity": 7380,
-        "reserved": 25,
-        "available": 7355,
-        "last_updated": "2026-01-06T20:03:34.425559"
-      },
-      {
-        "product_id": "P0051",
-        "quantity": 7125,
-        "reserved": 762,
-        "available": 6363,
-        "last_updated": "2026-01-06T20:03:34.425570"
-      },
-      {
-        "product_id": "P0084",
-        "quantity": 6812,
-        "reserved": 59,
-        "available": 6753,
-        "last_updated": "2026-01-06T20:03:34.425581"
+        "product_id": "P0095",
+        "quantity": 5204,
+        "reserved": 787,
+        "available": 4417,
+        "last_updated": "2026-01-08T22:49:07.465224"
       },
       {
         "product_id": "P0044",
-        "quantity": 1787,
-        "reserved": 355,
-        "available": 1432,
-        "last_updated": "2026-01-06T20:03:34.425592"
+        "quantity": 4282,
+        "reserved": 301,
+        "available": 3981,
+        "last_updated": "2026-01-08T22:49:07.465238"
       },
       {
-        "product_id": "P0029",
-        "quantity": 7312,
-        "reserved": 171,
-        "available": 7141,
-        "last_updated": "2026-01-06T20:03:34.425604"
+        "product_id": "P0023",
+        "quantity": 3722,
+        "reserved": 245,
+        "available": 3477,
+        "last_updated": "2026-01-08T22:49:07.465251"
       },
       {
-        "product_id": "P0036",
-        "quantity": 7001,
-        "reserved": 592,
-        "available": 6409,
-        "last_updated": "2026-01-06T20:03:34.425615"
-      },
-      {
-        "product_id": "P0072",
-        "quantity": 9063,
-        "reserved": 1214,
-        "available": 7849,
-        "last_updated": "2026-01-06T20:03:34.425626"
-      },
-      {
-        "product_id": "P0063",
-        "quantity": 2474,
-        "reserved": 485,
-        "available": 1989,
-        "last_updated": "2026-01-06T20:03:34.425637"
-      },
-      {
-        "product_id": "P0050",
-        "quantity": 8886,
-        "reserved": 225,
-        "available": 8661,
-        "last_updated": "2026-01-06T20:03:34.425648"
-      },
-      {
-        "product_id": "P0014",
-        "quantity": 6390,
-        "reserved": 591,
-        "available": 5799,
-        "last_updated": "2026-01-06T20:03:34.425659"
-      },
-      {
-        "product_id": "P0016",
-        "quantity": 7678,
-        "reserved": 839,
-        "available": 6839,
-        "last_updated": "2026-01-06T20:03:34.425670"
+        "product_id": "P0092",
+        "quantity": 3123,
+        "reserved": 8,
+        "available": 3115,
+        "last_updated": "2026-01-08T22:49:07.465264"
       },
       {
         "product_id": "P0047",
-        "quantity": 8873,
-        "reserved": 195,
-        "available": 8678,
-        "last_updated": "2026-01-06T20:03:34.425681"
-      },
-      {
-        "product_id": "P0010",
-        "quantity": 6362,
-        "reserved": 831,
-        "available": 5531,
-        "last_updated": "2026-01-06T20:03:34.425692"
-      },
-      {
-        "product_id": "P0095",
-        "quantity": 4523,
-        "reserved": 235,
-        "available": 4288,
-        "last_updated": "2026-01-06T20:03:34.425703"
-      },
-      {
-        "product_id": "P0021",
-        "quantity": 2458,
-        "reserved": 291,
-        "available": 2167,
-        "last_updated": "2026-01-06T20:03:34.425714"
-      },
-      {
-        "product_id": "P0043",
-        "quantity": 3112,
-        "reserved": 44,
-        "available": 3068,
-        "last_updated": "2026-01-06T20:03:34.425726"
-      },
-      {
-        "product_id": "P0070",
-        "quantity": 8085,
-        "reserved": 504,
-        "available": 7581,
-        "last_updated": "2026-01-06T20:03:34.425737"
-      },
-      {
-        "product_id": "P0053",
-        "quantity": 7509,
-        "reserved": 341,
-        "available": 7168,
-        "last_updated": "2026-01-06T20:03:34.425748"
-      },
-      {
-        "product_id": "P0097",
-        "quantity": 2884,
-        "reserved": 550,
-        "available": 2334,
-        "last_updated": "2026-01-06T20:03:34.425759"
-      },
-      {
-        "product_id": "P0086",
-        "quantity": 8368,
-        "reserved": 765,
-        "available": 7603,
-        "last_updated": "2026-01-06T20:03:34.425770"
-      },
-      {
-        "product_id": "P0028",
-        "quantity": 2447,
-        "reserved": 440,
-        "available": 2007,
-        "last_updated": "2026-01-06T20:03:34.425782"
-      },
-      {
-        "product_id": "P0011",
-        "quantity": 3892,
-        "reserved": 254,
-        "available": 3638,
-        "last_updated": "2026-01-06T20:03:34.425793"
-      },
-      {
-        "product_id": "P0096",
-        "quantity": 7583,
-        "reserved": 1286,
-        "available": 6297,
-        "last_updated": "2026-01-06T20:03:34.425807"
-      },
-      {
-        "product_id": "P0030",
-        "quantity": 9511,
-        "reserved": 1308,
-        "available": 8203,
-        "last_updated": "2026-01-06T20:03:34.425823"
-      },
-      {
-        "product_id": "P0006",
-        "quantity": 6662,
-        "reserved": 710,
-        "available": 5952,
-        "last_updated": "2026-01-06T20:03:34.425836"
-      },
-      {
-        "product_id": "P0042",
-        "quantity": 5393,
-        "reserved": 803,
-        "available": 4590,
-        "last_updated": "2026-01-06T20:03:34.425848"
-      },
-      {
-        "product_id": "P0081",
-        "quantity": 6368,
-        "reserved": 473,
-        "available": 5895,
-        "last_updated": "2026-01-06T20:03:34.425860"
-      },
-      {
-        "product_id": "P0003",
-        "quantity": 3551,
-        "reserved": 590,
-        "available": 2961,
-        "last_updated": "2026-01-06T20:03:34.425875"
-      },
-      {
-        "product_id": "P0027",
-        "quantity": 2346,
-        "reserved": 156,
-        "available": 2190,
-        "last_updated": "2026-01-06T20:03:34.425890"
-      },
-      {
-        "product_id": "P0090",
-        "quantity": 1022,
-        "reserved": 82,
-        "available": 940,
-        "last_updated": "2026-01-06T20:03:34.425906"
-      },
-      {
-        "product_id": "P0026",
-        "quantity": 6969,
-        "reserved": 1330,
-        "available": 5639,
-        "last_updated": "2026-01-06T20:03:34.425921"
-      },
-      {
-        "product_id": "P0048",
-        "quantity": 9982,
-        "reserved": 50,
-        "available": 9932,
-        "last_updated": "2026-01-06T20:03:34.425937"
-      },
-      {
-        "product_id": "P0039",
-        "quantity": 2681,
-        "reserved": 271,
-        "available": 2410,
-        "last_updated": "2026-01-06T20:03:34.425951"
-      },
-      {
-        "product_id": "P0055",
-        "quantity": 2293,
-        "reserved": 146,
-        "available": 2147,
-        "last_updated": "2026-01-06T20:03:34.425962"
-      },
-      {
-        "product_id": "P0049",
-        "quantity": 3463,
-        "reserved": 132,
-        "available": 3331,
-        "last_updated": "2026-01-06T20:03:34.425974"
-      },
-      {
-        "product_id": "P0017",
-        "quantity": 1499,
-        "reserved": 34,
-        "available": 1465,
-        "last_updated": "2026-01-06T20:03:34.425985"
-      },
-      {
-        "product_id": "P0064",
-        "quantity": 5372,
-        "reserved": 467,
-        "available": 4905,
-        "last_updated": "2026-01-06T20:03:34.425996"
-      },
-      {
-        "product_id": "P0076",
-        "quantity": 9928,
-        "reserved": 1450,
-        "available": 8478,
-        "last_updated": "2026-01-06T20:03:34.426007"
-      },
-      {
-        "product_id": "P0024",
-        "quantity": 5722,
-        "reserved": 556,
-        "available": 5166,
-        "last_updated": "2026-01-06T20:03:34.426018"
-      },
-      {
-        "product_id": "P0082",
-        "quantity": 7834,
-        "reserved": 1370,
-        "available": 6464,
-        "last_updated": "2026-01-06T20:03:34.426033"
-      },
-      {
-        "product_id": "P0071",
-        "quantity": 6258,
-        "reserved": 689,
-        "available": 5569,
-        "last_updated": "2026-01-06T20:03:34.426045"
-      },
-      {
-        "product_id": "P0068",
-        "quantity": 8756,
-        "reserved": 740,
-        "available": 8016,
-        "last_updated": "2026-01-06T20:03:34.426056"
-      },
-      {
-        "product_id": "P0100",
-        "quantity": 8553,
-        "reserved": 744,
-        "available": 7809,
-        "last_updated": "2026-01-06T20:03:34.426067"
-      },
-      {
-        "product_id": "P0058",
-        "quantity": 3890,
-        "reserved": 544,
-        "available": 3346,
-        "last_updated": "2026-01-06T20:03:34.426078"
-      },
-      {
-        "product_id": "P0034",
-        "quantity": 2491,
-        "reserved": 78,
-        "available": 2413,
-        "last_updated": "2026-01-06T20:03:34.426089"
-      },
-      {
-        "product_id": "P0083",
-        "quantity": 1922,
-        "reserved": 6,
-        "available": 1916,
-        "last_updated": "2026-01-06T20:03:34.426100"
+        "quantity": 6046,
+        "reserved": 1042,
+        "available": 5004,
+        "last_updated": "2026-01-08T22:49:07.465276"
       },
       {
         "product_id": "P0066",
-        "quantity": 1937,
-        "reserved": 182,
-        "available": 1755,
-        "last_updated": "2026-01-06T20:03:34.426111"
+        "quantity": 7310,
+        "reserved": 128,
+        "available": 7182,
+        "last_updated": "2026-01-08T22:49:07.465288"
+      },
+      {
+        "product_id": "P0016",
+        "quantity": 3840,
+        "reserved": 20,
+        "available": 3820,
+        "last_updated": "2026-01-08T22:49:07.465299"
+      },
+      {
+        "product_id": "P0020",
+        "quantity": 9926,
+        "reserved": 420,
+        "available": 9506,
+        "last_updated": "2026-01-08T22:49:07.465310"
+      },
+      {
+        "product_id": "P0039",
+        "quantity": 3270,
+        "reserved": 326,
+        "available": 2944,
+        "last_updated": "2026-01-08T22:49:07.465322"
+      },
+      {
+        "product_id": "P0085",
+        "quantity": 6200,
+        "reserved": 1124,
+        "available": 5076,
+        "last_updated": "2026-01-08T22:49:07.465333"
+      },
+      {
+        "product_id": "P0058",
+        "quantity": 8395,
+        "reserved": 1283,
+        "available": 7112,
+        "last_updated": "2026-01-08T22:49:07.465344"
+      },
+      {
+        "product_id": "P0093",
+        "quantity": 3202,
+        "reserved": 230,
+        "available": 2972,
+        "last_updated": "2026-01-08T22:49:07.465356"
+      },
+      {
+        "product_id": "P0042",
+        "quantity": 4917,
+        "reserved": 387,
+        "available": 4530,
+        "last_updated": "2026-01-08T22:49:07.465367"
+      },
+      {
+        "product_id": "P0082",
+        "quantity": 3364,
+        "reserved": 324,
+        "available": 3040,
+        "last_updated": "2026-01-08T22:49:07.465378"
       },
       {
         "product_id": "P0061",
-        "quantity": 7667,
-        "reserved": 1282,
-        "available": 6385,
-        "last_updated": "2026-01-06T20:03:34.426123"
+        "quantity": 1607,
+        "reserved": 20,
+        "available": 1587,
+        "last_updated": "2026-01-08T22:49:07.465389"
+      },
+      {
+        "product_id": "P0055",
+        "quantity": 3425,
+        "reserved": 492,
+        "available": 2933,
+        "last_updated": "2026-01-08T22:49:07.465400"
+      },
+      {
+        "product_id": "P0035",
+        "quantity": 1146,
+        "reserved": 39,
+        "available": 1107,
+        "last_updated": "2026-01-08T22:49:07.465412"
+      },
+      {
+        "product_id": "P0029",
+        "quantity": 8273,
+        "reserved": 1554,
+        "available": 6719,
+        "last_updated": "2026-01-08T22:49:07.465423"
+      },
+      {
+        "product_id": "P0090",
+        "quantity": 4818,
+        "reserved": 13,
+        "available": 4805,
+        "last_updated": "2026-01-08T22:49:07.465434"
+      },
+      {
+        "product_id": "P0052",
+        "quantity": 4643,
+        "reserved": 128,
+        "available": 4515,
+        "last_updated": "2026-01-08T22:49:07.465445"
+      },
+      {
+        "product_id": "P0071",
+        "quantity": 6218,
+        "reserved": 429,
+        "available": 5789,
+        "last_updated": "2026-01-08T22:49:07.465456"
+      },
+      {
+        "product_id": "P0018",
+        "quantity": 4837,
+        "reserved": 557,
+        "available": 4280,
+        "last_updated": "2026-01-08T22:49:07.465468"
+      },
+      {
+        "product_id": "P0065",
+        "quantity": 6600,
+        "reserved": 259,
+        "available": 6341,
+        "last_updated": "2026-01-08T22:49:07.465479"
+      },
+      {
+        "product_id": "P0086",
+        "quantity": 3739,
+        "reserved": 703,
+        "available": 3036,
+        "last_updated": "2026-01-08T22:49:07.465490"
+      },
+      {
+        "product_id": "P0030",
+        "quantity": 3548,
+        "reserved": 78,
+        "available": 3470,
+        "last_updated": "2026-01-08T22:49:07.465502"
+      },
+      {
+        "product_id": "P0001",
+        "quantity": 8937,
+        "reserved": 1597,
+        "available": 7340,
+        "last_updated": "2026-01-08T22:49:07.465513"
+      },
+      {
+        "product_id": "P0040",
+        "quantity": 9215,
+        "reserved": 1559,
+        "available": 7656,
+        "last_updated": "2026-01-08T22:49:07.465525"
+      },
+      {
+        "product_id": "P0033",
+        "quantity": 3985,
+        "reserved": 102,
+        "available": 3883,
+        "last_updated": "2026-01-08T22:49:07.465536"
+      },
+      {
+        "product_id": "P0075",
+        "quantity": 4248,
+        "reserved": 624,
+        "available": 3624,
+        "last_updated": "2026-01-08T22:49:07.465547"
+      },
+      {
+        "product_id": "P0011",
+        "quantity": 3374,
+        "reserved": 674,
+        "available": 2700,
+        "last_updated": "2026-01-08T22:49:07.465558"
+      },
+      {
+        "product_id": "P0060",
+        "quantity": 8698,
+        "reserved": 757,
+        "available": 7941,
+        "last_updated": "2026-01-08T22:49:07.465570"
+      },
+      {
+        "product_id": "P0027",
+        "quantity": 6562,
+        "reserved": 10,
+        "available": 6552,
+        "last_updated": "2026-01-08T22:49:07.465581"
+      },
+      {
+        "product_id": "P0076",
+        "quantity": 7923,
+        "reserved": 755,
+        "available": 7168,
+        "last_updated": "2026-01-08T22:49:07.465592"
+      },
+      {
+        "product_id": "P0080",
+        "quantity": 7688,
+        "reserved": 807,
+        "available": 6881,
+        "last_updated": "2026-01-08T22:49:07.465603"
+      },
+      {
+        "product_id": "P0084",
+        "quantity": 9400,
+        "reserved": 567,
+        "available": 8833,
+        "last_updated": "2026-01-08T22:49:07.465614"
+      },
+      {
+        "product_id": "P0070",
+        "quantity": 4306,
+        "reserved": 606,
+        "available": 3700,
+        "last_updated": "2026-01-08T22:49:07.465625"
+      },
+      {
+        "product_id": "P0094",
+        "quantity": 4911,
+        "reserved": 492,
+        "available": 4419,
+        "last_updated": "2026-01-08T22:49:07.465640"
+      },
+      {
+        "product_id": "P0069",
+        "quantity": 5674,
+        "reserved": 339,
+        "available": 5335,
+        "last_updated": "2026-01-08T22:49:07.465652"
+      },
+      {
+        "product_id": "P0091",
+        "quantity": 3060,
+        "reserved": 199,
+        "available": 2861,
+        "last_updated": "2026-01-08T22:49:07.465663"
+      },
+      {
+        "product_id": "P0083",
+        "quantity": 1066,
+        "reserved": 165,
+        "available": 901,
+        "last_updated": "2026-01-08T22:49:07.465674"
+      },
+      {
+        "product_id": "P0012",
+        "quantity": 3319,
+        "reserved": 607,
+        "available": 2712,
+        "last_updated": "2026-01-08T22:49:07.465685"
       },
       {
         "product_id": "P0019",
-        "quantity": 2446,
+        "quantity": 1157,
+        "reserved": 0,
+        "available": 1157,
+        "last_updated": "2026-01-08T22:49:07.465697"
+      },
+      {
+        "product_id": "P0078",
+        "quantity": 5293,
+        "reserved": 419,
+        "available": 4874,
+        "last_updated": "2026-01-08T22:49:07.465708"
+      },
+      {
+        "product_id": "P0013",
+        "quantity": 9005,
+        "reserved": 808,
+        "available": 8197,
+        "last_updated": "2026-01-08T22:49:07.465719"
+      },
+      {
+        "product_id": "P0002",
+        "quantity": 9010,
+        "reserved": 1409,
+        "available": 7601,
+        "last_updated": "2026-01-08T22:49:07.465730"
+      },
+      {
+        "product_id": "P0015",
+        "quantity": 1756,
+        "reserved": 245,
+        "available": 1511,
+        "last_updated": "2026-01-08T22:49:07.465741"
+      },
+      {
+        "product_id": "P0073",
+        "quantity": 5044,
+        "reserved": 366,
+        "available": 4678,
+        "last_updated": "2026-01-08T22:49:07.465753"
+      },
+      {
+        "product_id": "P0050",
+        "quantity": 5324,
+        "reserved": 1058,
+        "available": 4266,
+        "last_updated": "2026-01-08T22:49:07.465764"
+      },
+      {
+        "product_id": "P0031",
+        "quantity": 2805,
+        "reserved": 452,
+        "available": 2353,
+        "last_updated": "2026-01-08T22:49:07.465775"
+      },
+      {
+        "product_id": "P0057",
+        "quantity": 4034,
+        "reserved": 601,
+        "available": 3433,
+        "last_updated": "2026-01-08T22:49:07.465787"
+      },
+      {
+        "product_id": "P0048",
+        "quantity": 1147,
+        "reserved": 188,
+        "available": 959,
+        "last_updated": "2026-01-08T22:49:07.465798"
+      },
+      {
+        "product_id": "P0079",
+        "quantity": 8040,
+        "reserved": 1547,
+        "available": 6493,
+        "last_updated": "2026-01-08T22:49:07.465810"
+      },
+      {
+        "product_id": "P0025",
+        "quantity": 3485,
+        "reserved": 179,
+        "available": 3306,
+        "last_updated": "2026-01-08T22:49:07.465821"
+      },
+      {
+        "product_id": "P0006",
+        "quantity": 9554,
+        "reserved": 620,
+        "available": 8934,
+        "last_updated": "2026-01-08T22:49:07.465832"
+      },
+      {
+        "product_id": "P0062",
+        "quantity": 6865,
+        "reserved": 846,
+        "available": 6019,
+        "last_updated": "2026-01-08T22:49:07.465844"
+      },
+      {
+        "product_id": "P0088",
+        "quantity": 6817,
+        "reserved": 132,
+        "available": 6685,
+        "last_updated": "2026-01-08T22:49:07.465855"
+      },
+      {
+        "product_id": "P0037",
+        "quantity": 6311,
+        "reserved": 350,
+        "available": 5961,
+        "last_updated": "2026-01-08T22:49:07.465866"
+      },
+      {
+        "product_id": "P0032",
+        "quantity": 3844,
+        "reserved": 481,
+        "available": 3363,
+        "last_updated": "2026-01-08T22:49:07.465877"
+      },
+      {
+        "product_id": "P0077",
+        "quantity": 3668,
+        "reserved": 150,
+        "available": 3518,
+        "last_updated": "2026-01-08T22:49:07.465888"
+      },
+      {
+        "product_id": "P0074",
+        "quantity": 2370,
         "reserved": 211,
-        "available": 2235,
-        "last_updated": "2026-01-06T20:03:34.426134"
+        "available": 2159,
+        "last_updated": "2026-01-08T22:49:07.465900"
+      },
+      {
+        "product_id": "P0098",
+        "quantity": 9079,
+        "reserved": 972,
+        "available": 8107,
+        "last_updated": "2026-01-08T22:49:07.465911"
+      },
+      {
+        "product_id": "P0099",
+        "quantity": 7885,
+        "reserved": 1410,
+        "available": 6475,
+        "last_updated": "2026-01-08T22:49:07.465922"
+      },
+      {
+        "product_id": "P0087",
+        "quantity": 4132,
+        "reserved": 697,
+        "available": 3435,
+        "last_updated": "2026-01-08T22:49:07.465933"
+      },
+      {
+        "product_id": "P0034",
+        "quantity": 4667,
+        "reserved": 186,
+        "available": 4481,
+        "last_updated": "2026-01-08T22:49:07.465945"
+      },
+      {
+        "product_id": "P0004",
+        "quantity": 2487,
+        "reserved": 55,
+        "available": 2432,
+        "last_updated": "2026-01-08T22:49:07.465956"
+      },
+      {
+        "product_id": "P0051",
+        "quantity": 9845,
+        "reserved": 1386,
+        "available": 8459,
+        "last_updated": "2026-01-08T22:49:07.465967"
+      },
+      {
+        "product_id": "P0096",
+        "quantity": 3441,
+        "reserved": 147,
+        "available": 3294,
+        "last_updated": "2026-01-08T22:49:07.465978"
+      },
+      {
+        "product_id": "P0017",
+        "quantity": 3285,
+        "reserved": 12,
+        "available": 3273,
+        "last_updated": "2026-01-08T22:49:07.465990"
+      },
+      {
+        "product_id": "P0045",
+        "quantity": 3731,
+        "reserved": 64,
+        "available": 3667,
+        "last_updated": "2026-01-08T22:49:07.466001"
+      },
+      {
+        "product_id": "P0100",
+        "quantity": 3060,
+        "reserved": 429,
+        "available": 2631,
+        "last_updated": "2026-01-08T22:49:07.466012"
+      },
+      {
+        "product_id": "P0007",
+        "quantity": 3111,
+        "reserved": 409,
+        "available": 2702,
+        "last_updated": "2026-01-08T22:49:07.466023"
+      },
+      {
+        "product_id": "P0049",
+        "quantity": 7048,
+        "reserved": 561,
+        "available": 6487,
+        "last_updated": "2026-01-08T22:49:07.466035"
+      },
+      {
+        "product_id": "P0008",
+        "quantity": 8383,
+        "reserved": 457,
+        "available": 7926,
+        "last_updated": "2026-01-08T22:49:07.466045"
+      },
+      {
+        "product_id": "P0028",
+        "quantity": 8746,
+        "reserved": 1551,
+        "available": 7195,
+        "last_updated": "2026-01-08T22:49:07.466061"
+      },
+      {
+        "product_id": "P0024",
+        "quantity": 7413,
+        "reserved": 386,
+        "available": 7027,
+        "last_updated": "2026-01-08T22:49:07.466072"
+      },
+      {
+        "product_id": "P0014",
+        "quantity": 3360,
+        "reserved": 260,
+        "available": 3100,
+        "last_updated": "2026-01-08T22:49:07.466083"
+      },
+      {
+        "product_id": "P0003",
+        "quantity": 1063,
+        "reserved": 18,
+        "available": 1045,
+        "last_updated": "2026-01-08T22:49:07.466094"
+      },
+      {
+        "product_id": "P0059",
+        "quantity": 4166,
+        "reserved": 50,
+        "available": 4116,
+        "last_updated": "2026-01-08T22:49:07.466106"
+      },
+      {
+        "product_id": "P0056",
+        "quantity": 2993,
+        "reserved": 164,
+        "available": 2829,
+        "last_updated": "2026-01-08T22:49:07.466117"
+      },
+      {
+        "product_id": "P0072",
+        "quantity": 1610,
+        "reserved": 171,
+        "available": 1439,
+        "last_updated": "2026-01-08T22:49:07.466128"
+      },
+      {
+        "product_id": "P0046",
+        "quantity": 6341,
+        "reserved": 262,
+        "available": 6079,
+        "last_updated": "2026-01-08T22:49:07.466140"
+      },
+      {
+        "product_id": "P0054",
+        "quantity": 1279,
+        "reserved": 215,
+        "available": 1064,
+        "last_updated": "2026-01-08T22:49:07.466151"
+      },
+      {
+        "product_id": "P0036",
+        "quantity": 4374,
+        "reserved": 763,
+        "available": 3611,
+        "last_updated": "2026-01-08T22:49:07.466162"
       },
       {
         "product_id": "P0067",
-        "quantity": 3107,
-        "reserved": 371,
-        "available": 2736,
-        "last_updated": "2026-01-06T20:03:34.426145"
+        "quantity": 1878,
+        "reserved": 351,
+        "available": 1527,
+        "last_updated": "2026-01-08T22:49:07.466173"
+      },
+      {
+        "product_id": "P0010",
+        "quantity": 6203,
+        "reserved": 294,
+        "available": 5909,
+        "last_updated": "2026-01-08T22:49:07.466184"
+      },
+      {
+        "product_id": "P0043",
+        "quantity": 6280,
+        "reserved": 865,
+        "available": 5415,
+        "last_updated": "2026-01-08T22:49:07.466195"
+      },
+      {
+        "product_id": "P0026",
+        "quantity": 6212,
+        "reserved": 840,
+        "available": 5372,
+        "last_updated": "2026-01-08T22:49:07.466207"
+      },
+      {
+        "product_id": "P0081",
+        "quantity": 6392,
+        "reserved": 44,
+        "available": 6348,
+        "last_updated": "2026-01-08T22:49:07.466218"
+      },
+      {
+        "product_id": "P0053",
+        "quantity": 3548,
+        "reserved": 405,
+        "available": 3143,
+        "last_updated": "2026-01-08T22:49:07.466229"
+      },
+      {
+        "product_id": "P0097",
+        "quantity": 3090,
+        "reserved": 486,
+        "available": 2604,
+        "last_updated": "2026-01-08T22:49:07.466240"
       }
     ],
-    "last_updated": "2026-01-06T20:03:34.426146"
+    "last_updated": "2026-01-08T22:49:07.466241"
   },
   {
     "warehouse_id": "WH003",
@@ -1295,476 +1036,490 @@
     "location": "Bangalore",
     "products": [
       {
-        "product_id": "P0028",
-        "quantity": 2464,
-        "reserved": 139,
-        "available": 2325,
-        "last_updated": "2026-01-06T20:03:34.426248"
-      },
-      {
-        "product_id": "P0014",
-        "quantity": 6356,
-        "reserved": 838,
-        "available": 5518,
-        "last_updated": "2026-01-06T20:03:34.426263"
-      },
-      {
-        "product_id": "P0041",
-        "quantity": 8042,
-        "reserved": 52,
-        "available": 7990,
-        "last_updated": "2026-01-06T20:03:34.426277"
-      },
-      {
-        "product_id": "P0012",
-        "quantity": 3814,
-        "reserved": 6,
-        "available": 3808,
-        "last_updated": "2026-01-06T20:03:34.426289"
-      },
-      {
-        "product_id": "P0038",
-        "quantity": 8835,
-        "reserved": 643,
-        "available": 8192,
-        "last_updated": "2026-01-06T20:03:34.426302"
-      },
-      {
-        "product_id": "P0071",
-        "quantity": 9292,
-        "reserved": 0,
-        "available": 9292,
-        "last_updated": "2026-01-06T20:03:34.426313"
-      },
-      {
-        "product_id": "P0053",
-        "quantity": 9545,
-        "reserved": 1690,
-        "available": 7855,
-        "last_updated": "2026-01-06T20:03:34.426325"
-      },
-      {
-        "product_id": "P0086",
-        "quantity": 4745,
-        "reserved": 202,
-        "available": 4543,
-        "last_updated": "2026-01-06T20:03:34.426336"
-      },
-      {
-        "product_id": "P0088",
-        "quantity": 3829,
-        "reserved": 114,
-        "available": 3715,
-        "last_updated": "2026-01-06T20:03:34.426348"
-      },
-      {
-        "product_id": "P0037",
-        "quantity": 5826,
-        "reserved": 600,
-        "available": 5226,
-        "last_updated": "2026-01-06T20:03:34.426359"
-      },
-      {
-        "product_id": "P0060",
-        "quantity": 5202,
-        "reserved": 561,
-        "available": 4641,
-        "last_updated": "2026-01-06T20:03:34.426370"
-      },
-      {
-        "product_id": "P0095",
-        "quantity": 8004,
-        "reserved": 614,
-        "available": 7390,
-        "last_updated": "2026-01-06T20:03:34.426381"
-      },
-      {
-        "product_id": "P0034",
-        "quantity": 1389,
-        "reserved": 213,
-        "available": 1176,
-        "last_updated": "2026-01-06T20:03:34.426392"
-      },
-      {
-        "product_id": "P0026",
-        "quantity": 2668,
-        "reserved": 262,
-        "available": 2406,
-        "last_updated": "2026-01-06T20:03:34.426404"
-      },
-      {
-        "product_id": "P0047",
-        "quantity": 9466,
-        "reserved": 143,
-        "available": 9323,
-        "last_updated": "2026-01-06T20:03:34.426415"
-      },
-      {
-        "product_id": "P0017",
-        "quantity": 6251,
-        "reserved": 783,
-        "available": 5468,
-        "last_updated": "2026-01-06T20:03:34.426426"
-      },
-      {
-        "product_id": "P0072",
-        "quantity": 2448,
-        "reserved": 1,
-        "available": 2447,
-        "last_updated": "2026-01-06T20:03:34.426437"
-      },
-      {
-        "product_id": "P0084",
-        "quantity": 3962,
-        "reserved": 256,
-        "available": 3706,
-        "last_updated": "2026-01-06T20:03:34.426448"
-      },
-      {
-        "product_id": "P0025",
-        "quantity": 2244,
-        "reserved": 95,
-        "available": 2149,
-        "last_updated": "2026-01-06T20:03:34.426459"
-      },
-      {
-        "product_id": "P0079",
-        "quantity": 5812,
-        "reserved": 294,
-        "available": 5518,
-        "last_updated": "2026-01-06T20:03:34.426470"
-      },
-      {
-        "product_id": "P0069",
-        "quantity": 4832,
-        "reserved": 826,
-        "available": 4006,
-        "last_updated": "2026-01-06T20:03:34.426482"
-      },
-      {
-        "product_id": "P0085",
-        "quantity": 4830,
-        "reserved": 607,
-        "available": 4223,
-        "last_updated": "2026-01-06T20:03:34.426493"
-      },
-      {
-        "product_id": "P0093",
-        "quantity": 7439,
-        "reserved": 940,
-        "available": 6499,
-        "last_updated": "2026-01-06T20:03:34.426504"
-      },
-      {
-        "product_id": "P0046",
-        "quantity": 4047,
-        "reserved": 254,
-        "available": 3793,
-        "last_updated": "2026-01-06T20:03:34.426515"
-      },
-      {
-        "product_id": "P0077",
-        "quantity": 6021,
-        "reserved": 128,
-        "available": 5893,
-        "last_updated": "2026-01-06T20:03:34.426526"
-      },
-      {
-        "product_id": "P0021",
-        "quantity": 7598,
-        "reserved": 221,
-        "available": 7377,
-        "last_updated": "2026-01-06T20:03:34.426537"
-      },
-      {
-        "product_id": "P0027",
-        "quantity": 6051,
-        "reserved": 760,
-        "available": 5291,
-        "last_updated": "2026-01-06T20:03:34.426548"
-      },
-      {
-        "product_id": "P0007",
-        "quantity": 7450,
-        "reserved": 531,
-        "available": 6919,
-        "last_updated": "2026-01-06T20:03:34.426559"
-      },
-      {
-        "product_id": "P0036",
-        "quantity": 5634,
-        "reserved": 128,
-        "available": 5506,
-        "last_updated": "2026-01-06T20:03:34.426570"
-      },
-      {
-        "product_id": "P0076",
-        "quantity": 8582,
-        "reserved": 806,
-        "available": 7776,
-        "last_updated": "2026-01-06T20:03:34.426582"
-      },
-      {
-        "product_id": "P0011",
-        "quantity": 9585,
-        "reserved": 1276,
-        "available": 8309,
-        "last_updated": "2026-01-06T20:03:34.426593"
-      },
-      {
-        "product_id": "P0097",
-        "quantity": 8528,
-        "reserved": 1265,
-        "available": 7263,
-        "last_updated": "2026-01-06T20:03:34.426604"
-      },
-      {
-        "product_id": "P0039",
-        "quantity": 9383,
-        "reserved": 1647,
-        "available": 7736,
-        "last_updated": "2026-01-06T20:03:34.426615"
-      },
-      {
-        "product_id": "P0089",
-        "quantity": 8231,
-        "reserved": 552,
-        "available": 7679,
-        "last_updated": "2026-01-06T20:03:34.426626"
-      },
-      {
-        "product_id": "P0052",
-        "quantity": 6969,
-        "reserved": 783,
-        "available": 6186,
-        "last_updated": "2026-01-06T20:03:34.426637"
-      },
-      {
-        "product_id": "P0009",
-        "quantity": 6800,
-        "reserved": 563,
-        "available": 6237,
-        "last_updated": "2026-01-06T20:03:34.426648"
-      },
-      {
-        "product_id": "P0087",
-        "quantity": 6547,
-        "reserved": 734,
-        "available": 5813,
-        "last_updated": "2026-01-06T20:03:34.426659"
-      },
-      {
-        "product_id": "P0020",
-        "quantity": 3091,
-        "reserved": 319,
-        "available": 2772,
-        "last_updated": "2026-01-06T20:03:34.426670"
-      },
-      {
-        "product_id": "P0096",
-        "quantity": 2572,
-        "reserved": 505,
-        "available": 2067,
-        "last_updated": "2026-01-06T20:03:34.426681"
-      },
-      {
-        "product_id": "P0006",
-        "quantity": 6373,
-        "reserved": 1084,
-        "available": 5289,
-        "last_updated": "2026-01-06T20:03:34.426692"
-      },
-      {
-        "product_id": "P0051",
-        "quantity": 1354,
-        "reserved": 48,
-        "available": 1306,
-        "last_updated": "2026-01-06T20:03:34.426703"
-      },
-      {
-        "product_id": "P0080",
-        "quantity": 5542,
-        "reserved": 1038,
-        "available": 4504,
-        "last_updated": "2026-01-06T20:03:34.426714"
-      },
-      {
-        "product_id": "P0013",
-        "quantity": 5150,
-        "reserved": 417,
-        "available": 4733,
-        "last_updated": "2026-01-06T20:03:34.426725"
-      },
-      {
-        "product_id": "P0054",
-        "quantity": 8656,
-        "reserved": 857,
-        "available": 7799,
-        "last_updated": "2026-01-06T20:03:34.426736"
-      },
-      {
-        "product_id": "P0045",
-        "quantity": 8380,
-        "reserved": 677,
-        "available": 7703,
-        "last_updated": "2026-01-06T20:03:34.426747"
-      },
-      {
-        "product_id": "P0022",
-        "quantity": 4814,
-        "reserved": 618,
-        "available": 4196,
-        "last_updated": "2026-01-06T20:03:34.426758"
-      },
-      {
-        "product_id": "P0032",
-        "quantity": 1778,
-        "reserved": 91,
-        "available": 1687,
-        "last_updated": "2026-01-06T20:03:34.426770"
-      },
-      {
-        "product_id": "P0050",
-        "quantity": 7664,
-        "reserved": 336,
-        "available": 7328,
-        "last_updated": "2026-01-06T20:03:34.426781"
-      },
-      {
-        "product_id": "P0029",
-        "quantity": 1443,
-        "reserved": 17,
-        "available": 1426,
-        "last_updated": "2026-01-06T20:03:34.426794"
-      },
-      {
-        "product_id": "P0044",
-        "quantity": 5193,
-        "reserved": 104,
-        "available": 5089,
-        "last_updated": "2026-01-06T20:03:34.426805"
-      },
-      {
-        "product_id": "P0023",
-        "quantity": 1648,
-        "reserved": 79,
-        "available": 1569,
-        "last_updated": "2026-01-06T20:03:34.426817"
-      },
-      {
-        "product_id": "P0024",
-        "quantity": 2624,
-        "reserved": 213,
-        "available": 2411,
-        "last_updated": "2026-01-06T20:03:34.426828"
+        "product_id": "P0057",
+        "quantity": 5861,
+        "reserved": 909,
+        "available": 4952,
+        "last_updated": "2026-01-08T22:49:07.466345"
       },
       {
         "product_id": "P0042",
-        "quantity": 8650,
-        "reserved": 1304,
-        "available": 7346,
-        "last_updated": "2026-01-06T20:03:34.426839"
+        "quantity": 8909,
+        "reserved": 1643,
+        "available": 7266,
+        "last_updated": "2026-01-08T22:49:07.466361"
       },
       {
-        "product_id": "P0064",
-        "quantity": 7555,
-        "reserved": 251,
-        "available": 7304,
-        "last_updated": "2026-01-06T20:03:34.426850"
+        "product_id": "P0022",
+        "quantity": 7255,
+        "reserved": 1207,
+        "available": 6048,
+        "last_updated": "2026-01-08T22:49:07.466374"
       },
       {
-        "product_id": "P0068",
-        "quantity": 6212,
-        "reserved": 526,
-        "available": 5686,
-        "last_updated": "2026-01-06T20:03:34.426861"
+        "product_id": "P0097",
+        "quantity": 2665,
+        "reserved": 509,
+        "available": 2156,
+        "last_updated": "2026-01-08T22:49:07.466387"
       },
       {
-        "product_id": "P0030",
-        "quantity": 8424,
-        "reserved": 694,
-        "available": 7730,
-        "last_updated": "2026-01-06T20:03:34.426873"
+        "product_id": "P0008",
+        "quantity": 1076,
+        "reserved": 134,
+        "available": 942,
+        "last_updated": "2026-01-08T22:49:07.466399"
       },
       {
-        "product_id": "P0067",
-        "quantity": 7113,
-        "reserved": 376,
-        "available": 6737,
-        "last_updated": "2026-01-06T20:03:34.426884"
+        "product_id": "P0092",
+        "quantity": 3235,
+        "reserved": 213,
+        "available": 3022,
+        "last_updated": "2026-01-08T22:49:07.466410"
       },
       {
-        "product_id": "P0081",
-        "quantity": 5173,
-        "reserved": 783,
-        "available": 4390,
-        "last_updated": "2026-01-06T20:03:34.426895"
+        "product_id": "P0060",
+        "quantity": 1136,
+        "reserved": 132,
+        "available": 1004,
+        "last_updated": "2026-01-08T22:49:07.466422"
       },
       {
-        "product_id": "P0091",
-        "quantity": 6549,
-        "reserved": 33,
-        "available": 6516,
-        "last_updated": "2026-01-06T20:03:34.426906"
+        "product_id": "P0033",
+        "quantity": 3530,
+        "reserved": 287,
+        "available": 3243,
+        "last_updated": "2026-01-08T22:49:07.466433"
+      },
+      {
+        "product_id": "P0018",
+        "quantity": 5023,
+        "reserved": 379,
+        "available": 4644,
+        "last_updated": "2026-01-08T22:49:07.466445"
+      },
+      {
+        "product_id": "P0040",
+        "quantity": 7089,
+        "reserved": 110,
+        "available": 6979,
+        "last_updated": "2026-01-08T22:49:07.466456"
+      },
+      {
+        "product_id": "P0031",
+        "quantity": 9486,
+        "reserved": 1637,
+        "available": 7849,
+        "last_updated": "2026-01-08T22:49:07.466468"
+      },
+      {
+        "product_id": "P0048",
+        "quantity": 9354,
+        "reserved": 1522,
+        "available": 7832,
+        "last_updated": "2026-01-08T22:49:07.466479"
+      },
+      {
+        "product_id": "P0051",
+        "quantity": 5266,
+        "reserved": 153,
+        "available": 5113,
+        "last_updated": "2026-01-08T22:49:07.466491"
+      },
+      {
+        "product_id": "P0039",
+        "quantity": 2176,
+        "reserved": 162,
+        "available": 2014,
+        "last_updated": "2026-01-08T22:49:07.466502"
+      },
+      {
+        "product_id": "P0032",
+        "quantity": 2953,
+        "reserved": 73,
+        "available": 2880,
+        "last_updated": "2026-01-08T22:49:07.466514"
+      },
+      {
+        "product_id": "P0012",
+        "quantity": 3272,
+        "reserved": 313,
+        "available": 2959,
+        "last_updated": "2026-01-08T22:49:07.466525"
       },
       {
         "product_id": "P0066",
-        "quantity": 6796,
-        "reserved": 502,
-        "available": 6294,
-        "last_updated": "2026-01-06T20:03:34.426917"
+        "quantity": 9324,
+        "reserved": 1503,
+        "available": 7821,
+        "last_updated": "2026-01-08T22:49:07.466536"
       },
       {
-        "product_id": "P0098",
-        "quantity": 6229,
-        "reserved": 1133,
-        "available": 5096,
-        "last_updated": "2026-01-06T20:03:34.426928"
+        "product_id": "P0026",
+        "quantity": 2213,
+        "reserved": 254,
+        "available": 1959,
+        "last_updated": "2026-01-08T22:49:07.466547"
+      },
+      {
+        "product_id": "P0061",
+        "quantity": 7345,
+        "reserved": 63,
+        "available": 7282,
+        "last_updated": "2026-01-08T22:49:07.466559"
+      },
+      {
+        "product_id": "P0064",
+        "quantity": 2210,
+        "reserved": 310,
+        "available": 1900,
+        "last_updated": "2026-01-08T22:49:07.466570"
+      },
+      {
+        "product_id": "P0054",
+        "quantity": 1014,
+        "reserved": 63,
+        "available": 951,
+        "last_updated": "2026-01-08T22:49:07.466581"
+      },
+      {
+        "product_id": "P0030",
+        "quantity": 5678,
+        "reserved": 490,
+        "available": 5188,
+        "last_updated": "2026-01-08T22:49:07.466592"
+      },
+      {
+        "product_id": "P0085",
+        "quantity": 4798,
+        "reserved": 91,
+        "available": 4707,
+        "last_updated": "2026-01-08T22:49:07.466604"
+      },
+      {
+        "product_id": "P0016",
+        "quantity": 9918,
+        "reserved": 1915,
+        "available": 8003,
+        "last_updated": "2026-01-08T22:49:07.466615"
+      },
+      {
+        "product_id": "P0078",
+        "quantity": 6157,
+        "reserved": 797,
+        "available": 5360,
+        "last_updated": "2026-01-08T22:49:07.466627"
+      },
+      {
+        "product_id": "P0049",
+        "quantity": 1621,
+        "reserved": 54,
+        "available": 1567,
+        "last_updated": "2026-01-08T22:49:07.466638"
+      },
+      {
+        "product_id": "P0094",
+        "quantity": 9670,
+        "reserved": 901,
+        "available": 8769,
+        "last_updated": "2026-01-08T22:49:07.466650"
       },
       {
         "product_id": "P0073",
-        "quantity": 9405,
-        "reserved": 645,
-        "available": 8760,
-        "last_updated": "2026-01-06T20:03:34.426939"
-      },
-      {
-        "product_id": "P0090",
-        "quantity": 2950,
-        "reserved": 248,
-        "available": 2702,
-        "last_updated": "2026-01-06T20:03:34.426950"
+        "quantity": 7763,
+        "reserved": 1346,
+        "available": 6417,
+        "last_updated": "2026-01-08T22:49:07.466661"
       },
       {
         "product_id": "P0070",
-        "quantity": 3196,
-        "reserved": 467,
-        "available": 2729,
-        "last_updated": "2026-01-06T20:03:34.426961"
+        "quantity": 1093,
+        "reserved": 163,
+        "available": 930,
+        "last_updated": "2026-01-08T22:49:07.466672"
+      },
+      {
+        "product_id": "P0093",
+        "quantity": 5268,
+        "reserved": 453,
+        "available": 4815,
+        "last_updated": "2026-01-08T22:49:07.466683"
+      },
+      {
+        "product_id": "P0082",
+        "quantity": 8722,
+        "reserved": 1157,
+        "available": 7565,
+        "last_updated": "2026-01-08T22:49:07.466695"
+      },
+      {
+        "product_id": "P0075",
+        "quantity": 2053,
+        "reserved": 267,
+        "available": 1786,
+        "last_updated": "2026-01-08T22:49:07.466706"
+      },
+      {
+        "product_id": "P0045",
+        "quantity": 8606,
+        "reserved": 270,
+        "available": 8336,
+        "last_updated": "2026-01-08T22:49:07.466717"
+      },
+      {
+        "product_id": "P0083",
+        "quantity": 3737,
+        "reserved": 535,
+        "available": 3202,
+        "last_updated": "2026-01-08T22:49:07.466729"
+      },
+      {
+        "product_id": "P0071",
+        "quantity": 1909,
+        "reserved": 324,
+        "available": 1585,
+        "last_updated": "2026-01-08T22:49:07.466740"
+      },
+      {
+        "product_id": "P0099",
+        "quantity": 6841,
+        "reserved": 1229,
+        "available": 5612,
+        "last_updated": "2026-01-08T22:49:07.466751"
+      },
+      {
+        "product_id": "P0028",
+        "quantity": 6749,
+        "reserved": 108,
+        "available": 6641,
+        "last_updated": "2026-01-08T22:49:07.466763"
+      },
+      {
+        "product_id": "P0062",
+        "quantity": 2655,
+        "reserved": 256,
+        "available": 2399,
+        "last_updated": "2026-01-08T22:49:07.466778"
+      },
+      {
+        "product_id": "P0011",
+        "quantity": 7706,
+        "reserved": 447,
+        "available": 7259,
+        "last_updated": "2026-01-08T22:49:07.466790"
+      },
+      {
+        "product_id": "P0024",
+        "quantity": 4199,
+        "reserved": 449,
+        "available": 3750,
+        "last_updated": "2026-01-08T22:49:07.466801"
+      },
+      {
+        "product_id": "P0003",
+        "quantity": 8570,
+        "reserved": 1677,
+        "available": 6893,
+        "last_updated": "2026-01-08T22:49:07.466812"
+      },
+      {
+        "product_id": "P0100",
+        "quantity": 4198,
+        "reserved": 61,
+        "available": 4137,
+        "last_updated": "2026-01-08T22:49:07.466823"
+      },
+      {
+        "product_id": "P0047",
+        "quantity": 6486,
+        "reserved": 492,
+        "available": 5994,
+        "last_updated": "2026-01-08T22:49:07.466835"
+      },
+      {
+        "product_id": "P0017",
+        "quantity": 1684,
+        "reserved": 252,
+        "available": 1432,
+        "last_updated": "2026-01-08T22:49:07.466846"
+      },
+      {
+        "product_id": "P0055",
+        "quantity": 9062,
+        "reserved": 1231,
+        "available": 7831,
+        "last_updated": "2026-01-08T22:49:07.466857"
+      },
+      {
+        "product_id": "P0009",
+        "quantity": 4289,
+        "reserved": 717,
+        "available": 3572,
+        "last_updated": "2026-01-08T22:49:07.466868"
+      },
+      {
+        "product_id": "P0023",
+        "quantity": 2885,
+        "reserved": 560,
+        "available": 2325,
+        "last_updated": "2026-01-08T22:49:07.466879"
+      },
+      {
+        "product_id": "P0098",
+        "quantity": 1585,
+        "reserved": 141,
+        "available": 1444,
+        "last_updated": "2026-01-08T22:49:07.466891"
+      },
+      {
+        "product_id": "P0006",
+        "quantity": 9041,
+        "reserved": 160,
+        "available": 8881,
+        "last_updated": "2026-01-08T22:49:07.466902"
       },
       {
         "product_id": "P0035",
-        "quantity": 3738,
-        "reserved": 221,
-        "available": 3517,
-        "last_updated": "2026-01-06T20:03:34.426972"
+        "quantity": 4988,
+        "reserved": 71,
+        "available": 4917,
+        "last_updated": "2026-01-08T22:49:07.466913"
+      },
+      {
+        "product_id": "P0021",
+        "quantity": 5970,
+        "reserved": 335,
+        "available": 5635,
+        "last_updated": "2026-01-08T22:49:07.466924"
+      },
+      {
+        "product_id": "P0053",
+        "quantity": 3955,
+        "reserved": 51,
+        "available": 3904,
+        "last_updated": "2026-01-08T22:49:07.466935"
       },
       {
         "product_id": "P0001",
-        "quantity": 3398,
-        "reserved": 535,
-        "available": 2863,
-        "last_updated": "2026-01-06T20:03:34.426983"
+        "quantity": 1496,
+        "reserved": 117,
+        "available": 1379,
+        "last_updated": "2026-01-08T22:49:07.466946"
+      },
+      {
+        "product_id": "P0072",
+        "quantity": 1278,
+        "reserved": 11,
+        "available": 1267,
+        "last_updated": "2026-01-08T22:49:07.466958"
+      },
+      {
+        "product_id": "P0007",
+        "quantity": 4389,
+        "reserved": 399,
+        "available": 3990,
+        "last_updated": "2026-01-08T22:49:07.466969"
+      },
+      {
+        "product_id": "P0050",
+        "quantity": 7807,
+        "reserved": 1173,
+        "available": 6634,
+        "last_updated": "2026-01-08T22:49:07.466980"
+      },
+      {
+        "product_id": "P0089",
+        "quantity": 8789,
+        "reserved": 217,
+        "available": 8572,
+        "last_updated": "2026-01-08T22:49:07.466991"
+      },
+      {
+        "product_id": "P0084",
+        "quantity": 8321,
+        "reserved": 1091,
+        "available": 7230,
+        "last_updated": "2026-01-08T22:49:07.467002"
+      },
+      {
+        "product_id": "P0067",
+        "quantity": 5938,
+        "reserved": 219,
+        "available": 5719,
+        "last_updated": "2026-01-08T22:49:07.467013"
+      },
+      {
+        "product_id": "P0004",
+        "quantity": 5963,
+        "reserved": 483,
+        "available": 5480,
+        "last_updated": "2026-01-08T22:49:07.467024"
+      },
+      {
+        "product_id": "P0044",
+        "quantity": 2249,
+        "reserved": 438,
+        "available": 1811,
+        "last_updated": "2026-01-08T22:49:07.467036"
       },
       {
         "product_id": "P0015",
-        "quantity": 5147,
-        "reserved": 576,
-        "available": 4571,
-        "last_updated": "2026-01-06T20:03:34.426994"
+        "quantity": 8703,
+        "reserved": 812,
+        "available": 7891,
+        "last_updated": "2026-01-08T22:49:07.467047"
+      },
+      {
+        "product_id": "P0020",
+        "quantity": 5001,
+        "reserved": 117,
+        "available": 4884,
+        "last_updated": "2026-01-08T22:49:07.467058"
+      },
+      {
+        "product_id": "P0090",
+        "quantity": 4051,
+        "reserved": 314,
+        "available": 3737,
+        "last_updated": "2026-01-08T22:49:07.467069"
+      },
+      {
+        "product_id": "P0014",
+        "quantity": 8898,
+        "reserved": 250,
+        "available": 8648,
+        "last_updated": "2026-01-08T22:49:07.467080"
+      },
+      {
+        "product_id": "P0043",
+        "quantity": 5878,
+        "reserved": 860,
+        "available": 5018,
+        "last_updated": "2026-01-08T22:49:07.467091"
+      },
+      {
+        "product_id": "P0076",
+        "quantity": 7249,
+        "reserved": 943,
+        "available": 6306,
+        "last_updated": "2026-01-08T22:49:07.467102"
+      },
+      {
+        "product_id": "P0041",
+        "quantity": 1320,
+        "reserved": 176,
+        "available": 1144,
+        "last_updated": "2026-01-08T22:49:07.467114"
+      },
+      {
+        "product_id": "P0095",
+        "quantity": 5665,
+        "reserved": 718,
+        "available": 4947,
+        "last_updated": "2026-01-08T22:49:07.467125"
       }
     ],
-    "last_updated": "2026-01-06T20:03:34.426995"
+    "last_updated": "2026-01-08T22:49:07.467126"
   },
   {
     "warehouse_id": "WH004",
@@ -1772,483 +1527,511 @@
     "location": "Chennai",
     "products": [
       {
-        "product_id": "P0031",
-        "quantity": 4810,
-        "reserved": 647,
-        "available": 4163,
-        "last_updated": "2026-01-06T20:03:34.427095"
+        "product_id": "P0016",
+        "quantity": 7368,
+        "reserved": 870,
+        "available": 6498,
+        "last_updated": "2026-01-08T22:49:07.467229"
       },
       {
-        "product_id": "P0029",
-        "quantity": 7335,
-        "reserved": 1448,
-        "available": 5887,
-        "last_updated": "2026-01-06T20:03:34.427110"
-      },
-      {
-        "product_id": "P0074",
-        "quantity": 5639,
-        "reserved": 1066,
-        "available": 4573,
-        "last_updated": "2026-01-06T20:03:34.427123"
-      },
-      {
-        "product_id": "P0072",
-        "quantity": 6231,
-        "reserved": 24,
-        "available": 6207,
-        "last_updated": "2026-01-06T20:03:34.427136"
-      },
-      {
-        "product_id": "P0009",
-        "quantity": 4463,
-        "reserved": 770,
-        "available": 3693,
-        "last_updated": "2026-01-06T20:03:34.427148"
-      },
-      {
-        "product_id": "P0049",
-        "quantity": 7673,
-        "reserved": 293,
-        "available": 7380,
-        "last_updated": "2026-01-06T20:03:34.427160"
-      },
-      {
-        "product_id": "P0025",
-        "quantity": 9069,
-        "reserved": 1776,
-        "available": 7293,
-        "last_updated": "2026-01-06T20:03:34.427171"
-      },
-      {
-        "product_id": "P0064",
-        "quantity": 9462,
-        "reserved": 1577,
-        "available": 7885,
-        "last_updated": "2026-01-06T20:03:34.427183"
-      },
-      {
-        "product_id": "P0066",
-        "quantity": 4272,
-        "reserved": 196,
-        "available": 4076,
-        "last_updated": "2026-01-06T20:03:34.427194"
-      },
-      {
-        "product_id": "P0046",
-        "quantity": 5098,
-        "reserved": 230,
-        "available": 4868,
-        "last_updated": "2026-01-06T20:03:34.427205"
-      },
-      {
-        "product_id": "P0005",
-        "quantity": 8667,
-        "reserved": 446,
-        "available": 8221,
-        "last_updated": "2026-01-06T20:03:34.427216"
-      },
-      {
-        "product_id": "P0079",
-        "quantity": 5947,
-        "reserved": 141,
-        "available": 5806,
-        "last_updated": "2026-01-06T20:03:34.427227"
-      },
-      {
-        "product_id": "P0001",
-        "quantity": 9940,
-        "reserved": 724,
-        "available": 9216,
-        "last_updated": "2026-01-06T20:03:34.427238"
-      },
-      {
-        "product_id": "P0086",
-        "quantity": 9011,
-        "reserved": 73,
-        "available": 8938,
-        "last_updated": "2026-01-06T20:03:34.427249"
-      },
-      {
-        "product_id": "P0062",
-        "quantity": 3537,
-        "reserved": 700,
-        "available": 2837,
-        "last_updated": "2026-01-06T20:03:34.427261"
-      },
-      {
-        "product_id": "P0004",
-        "quantity": 5646,
-        "reserved": 1128,
-        "available": 4518,
-        "last_updated": "2026-01-06T20:03:34.427272"
-      },
-      {
-        "product_id": "P0061",
-        "quantity": 6536,
-        "reserved": 1038,
-        "available": 5498,
-        "last_updated": "2026-01-06T20:03:34.427282"
-      },
-      {
-        "product_id": "P0059",
-        "quantity": 7818,
-        "reserved": 434,
-        "available": 7384,
-        "last_updated": "2026-01-06T20:03:34.427294"
-      },
-      {
-        "product_id": "P0007",
-        "quantity": 4634,
-        "reserved": 607,
-        "available": 4027,
-        "last_updated": "2026-01-06T20:03:34.427305"
-      },
-      {
-        "product_id": "P0032",
-        "quantity": 7705,
-        "reserved": 539,
-        "available": 7166,
-        "last_updated": "2026-01-06T20:03:34.427316"
-      },
-      {
-        "product_id": "P0034",
-        "quantity": 6365,
-        "reserved": 561,
-        "available": 5804,
-        "last_updated": "2026-01-06T20:03:34.427326"
-      },
-      {
-        "product_id": "P0073",
-        "quantity": 3071,
-        "reserved": 147,
-        "available": 2924,
-        "last_updated": "2026-01-06T20:03:34.427337"
-      },
-      {
-        "product_id": "P0037",
-        "quantity": 1958,
-        "reserved": 146,
-        "available": 1812,
-        "last_updated": "2026-01-06T20:03:34.427348"
-      },
-      {
-        "product_id": "P0093",
-        "quantity": 4309,
-        "reserved": 327,
-        "available": 3982,
-        "last_updated": "2026-01-06T20:03:34.427359"
-      },
-      {
-        "product_id": "P0044",
-        "quantity": 4519,
-        "reserved": 777,
-        "available": 3742,
-        "last_updated": "2026-01-06T20:03:34.427370"
-      },
-      {
-        "product_id": "P0043",
-        "quantity": 5336,
-        "reserved": 281,
-        "available": 5055,
-        "last_updated": "2026-01-06T20:03:34.427381"
-      },
-      {
-        "product_id": "P0041",
-        "quantity": 5607,
-        "reserved": 572,
-        "available": 5035,
-        "last_updated": "2026-01-06T20:03:34.427393"
-      },
-      {
-        "product_id": "P0071",
-        "quantity": 6814,
-        "reserved": 574,
-        "available": 6240,
-        "last_updated": "2026-01-06T20:03:34.427404"
-      },
-      {
-        "product_id": "P0095",
-        "quantity": 1945,
-        "reserved": 173,
-        "available": 1772,
-        "last_updated": "2026-01-06T20:03:34.427415"
-      },
-      {
-        "product_id": "P0054",
-        "quantity": 8578,
-        "reserved": 1547,
-        "available": 7031,
-        "last_updated": "2026-01-06T20:03:34.427426"
-      },
-      {
-        "product_id": "P0052",
-        "quantity": 1767,
-        "reserved": 173,
-        "available": 1594,
-        "last_updated": "2026-01-06T20:03:34.427437"
-      },
-      {
-        "product_id": "P0053",
-        "quantity": 4392,
-        "reserved": 601,
-        "available": 3791,
-        "last_updated": "2026-01-06T20:03:34.427448"
-      },
-      {
-        "product_id": "P0045",
-        "quantity": 1173,
-        "reserved": 95,
-        "available": 1078,
-        "last_updated": "2026-01-06T20:03:34.427459"
-      },
-      {
-        "product_id": "P0063",
-        "quantity": 9679,
-        "reserved": 1480,
-        "available": 8199,
-        "last_updated": "2026-01-06T20:03:34.427470"
-      },
-      {
-        "product_id": "P0017",
-        "quantity": 2240,
-        "reserved": 446,
-        "available": 1794,
-        "last_updated": "2026-01-06T20:03:34.427481"
-      },
-      {
-        "product_id": "P0089",
-        "quantity": 5698,
-        "reserved": 280,
-        "available": 5418,
-        "last_updated": "2026-01-06T20:03:34.427492"
-      },
-      {
-        "product_id": "P0030",
-        "quantity": 2106,
-        "reserved": 231,
-        "available": 1875,
-        "last_updated": "2026-01-06T20:03:34.427503"
-      },
-      {
-        "product_id": "P0028",
-        "quantity": 9848,
-        "reserved": 1460,
-        "available": 8388,
-        "last_updated": "2026-01-06T20:03:34.427515"
-      },
-      {
-        "product_id": "P0021",
-        "quantity": 9933,
-        "reserved": 536,
-        "available": 9397,
-        "last_updated": "2026-01-06T20:03:34.427526"
-      },
-      {
-        "product_id": "P0035",
-        "quantity": 6040,
-        "reserved": 59,
-        "available": 5981,
-        "last_updated": "2026-01-06T20:03:34.427537"
-      },
-      {
-        "product_id": "P0099",
-        "quantity": 2938,
-        "reserved": 492,
-        "available": 2446,
-        "last_updated": "2026-01-06T20:03:34.427548"
-      },
-      {
-        "product_id": "P0070",
-        "quantity": 5956,
-        "reserved": 846,
-        "available": 5110,
-        "last_updated": "2026-01-06T20:03:34.427560"
-      },
-      {
-        "product_id": "P0013",
-        "quantity": 5401,
-        "reserved": 827,
-        "available": 4574,
-        "last_updated": "2026-01-06T20:03:34.427570"
-      },
-      {
-        "product_id": "P0100",
-        "quantity": 5521,
-        "reserved": 207,
-        "available": 5314,
-        "last_updated": "2026-01-06T20:03:34.427582"
-      },
-      {
-        "product_id": "P0060",
-        "quantity": 7235,
-        "reserved": 290,
-        "available": 6945,
-        "last_updated": "2026-01-06T20:03:34.427593"
-      },
-      {
-        "product_id": "P0006",
-        "quantity": 5344,
-        "reserved": 264,
-        "available": 5080,
-        "last_updated": "2026-01-06T20:03:34.427603"
-      },
-      {
-        "product_id": "P0075",
-        "quantity": 7246,
-        "reserved": 695,
-        "available": 6551,
-        "last_updated": "2026-01-06T20:03:34.427616"
-      },
-      {
-        "product_id": "P0092",
-        "quantity": 7366,
-        "reserved": 217,
-        "available": 7149,
-        "last_updated": "2026-01-06T20:03:34.427627"
-      },
-      {
-        "product_id": "P0019",
-        "quantity": 1160,
-        "reserved": 44,
-        "available": 1116,
-        "last_updated": "2026-01-06T20:03:34.427638"
-      },
-      {
-        "product_id": "P0057",
-        "quantity": 8702,
-        "reserved": 391,
-        "available": 8311,
-        "last_updated": "2026-01-06T20:03:34.427649"
-      },
-      {
-        "product_id": "P0020",
-        "quantity": 3876,
-        "reserved": 201,
-        "available": 3675,
-        "last_updated": "2026-01-06T20:03:34.427660"
-      },
-      {
-        "product_id": "P0083",
-        "quantity": 5141,
-        "reserved": 456,
-        "available": 4685,
-        "last_updated": "2026-01-06T20:03:34.427672"
-      },
-      {
-        "product_id": "P0018",
-        "quantity": 8612,
-        "reserved": 180,
-        "available": 8432,
-        "last_updated": "2026-01-06T20:03:34.427683"
-      },
-      {
-        "product_id": "P0003",
-        "quantity": 7253,
-        "reserved": 929,
-        "available": 6324,
-        "last_updated": "2026-01-06T20:03:34.427694"
-      },
-      {
-        "product_id": "P0055",
-        "quantity": 9156,
-        "reserved": 1400,
-        "available": 7756,
-        "last_updated": "2026-01-06T20:03:34.427705"
+        "product_id": "P0068",
+        "quantity": 5410,
+        "reserved": 42,
+        "available": 5368,
+        "last_updated": "2026-01-08T22:49:07.467243"
       },
       {
         "product_id": "P0069",
-        "quantity": 3916,
-        "reserved": 707,
-        "available": 3209,
-        "last_updated": "2026-01-06T20:03:34.427716"
+        "quantity": 2805,
+        "reserved": 150,
+        "available": 2655,
+        "last_updated": "2026-01-08T22:49:07.467256"
       },
       {
-        "product_id": "P0094",
-        "quantity": 4346,
-        "reserved": 601,
-        "available": 3745,
-        "last_updated": "2026-01-06T20:03:34.427726"
+        "product_id": "P0066",
+        "quantity": 9974,
+        "reserved": 358,
+        "available": 9616,
+        "last_updated": "2026-01-08T22:49:07.467269"
+      },
+      {
+        "product_id": "P0098",
+        "quantity": 4351,
+        "reserved": 599,
+        "available": 3752,
+        "last_updated": "2026-01-08T22:49:07.467281"
+      },
+      {
+        "product_id": "P0099",
+        "quantity": 6395,
+        "reserved": 545,
+        "available": 5850,
+        "last_updated": "2026-01-08T22:49:07.467292"
+      },
+      {
+        "product_id": "P0065",
+        "quantity": 9699,
+        "reserved": 118,
+        "available": 9581,
+        "last_updated": "2026-01-08T22:49:07.467304"
+      },
+      {
+        "product_id": "P0004",
+        "quantity": 3490,
+        "reserved": 523,
+        "available": 2967,
+        "last_updated": "2026-01-08T22:49:07.467315"
+      },
+      {
+        "product_id": "P0061",
+        "quantity": 7416,
+        "reserved": 1385,
+        "available": 6031,
+        "last_updated": "2026-01-08T22:49:07.467326"
+      },
+      {
+        "product_id": "P0059",
+        "quantity": 9113,
+        "reserved": 1318,
+        "available": 7795,
+        "last_updated": "2026-01-08T22:49:07.467337"
+      },
+      {
+        "product_id": "P0067",
+        "quantity": 9055,
+        "reserved": 1579,
+        "available": 7476,
+        "last_updated": "2026-01-08T22:49:07.467349"
+      },
+      {
+        "product_id": "P0005",
+        "quantity": 6229,
+        "reserved": 74,
+        "available": 6155,
+        "last_updated": "2026-01-08T22:49:07.467360"
       },
       {
         "product_id": "P0042",
-        "quantity": 3816,
-        "reserved": 463,
-        "available": 3353,
-        "last_updated": "2026-01-06T20:03:34.427738"
+        "quantity": 5281,
+        "reserved": 912,
+        "available": 4369,
+        "last_updated": "2026-01-08T22:49:07.467371"
       },
       {
-        "product_id": "P0077",
-        "quantity": 1967,
-        "reserved": 210,
-        "available": 1757,
-        "last_updated": "2026-01-06T20:03:34.427749"
+        "product_id": "P0026",
+        "quantity": 7908,
+        "reserved": 1577,
+        "available": 6331,
+        "last_updated": "2026-01-08T22:49:07.467383"
       },
       {
-        "product_id": "P0048",
-        "quantity": 6929,
-        "reserved": 699,
-        "available": 6230,
-        "last_updated": "2026-01-06T20:03:34.427760"
+        "product_id": "P0007",
+        "quantity": 9981,
+        "reserved": 615,
+        "available": 9366,
+        "last_updated": "2026-01-08T22:49:07.467394"
       },
       {
-        "product_id": "P0058",
-        "quantity": 9686,
-        "reserved": 1200,
-        "available": 8486,
-        "last_updated": "2026-01-06T20:03:34.427770"
+        "product_id": "P0092",
+        "quantity": 7048,
+        "reserved": 989,
+        "available": 6059,
+        "last_updated": "2026-01-08T22:49:07.467406"
       },
       {
-        "product_id": "P0036",
-        "quantity": 9454,
-        "reserved": 434,
-        "available": 9020,
-        "last_updated": "2026-01-06T20:03:34.427782"
+        "product_id": "P0072",
+        "quantity": 6762,
+        "reserved": 978,
+        "available": 5784,
+        "last_updated": "2026-01-08T22:49:07.467417"
       },
       {
-        "product_id": "P0016",
-        "quantity": 9602,
-        "reserved": 661,
-        "available": 8941,
-        "last_updated": "2026-01-06T20:03:34.427793"
+        "product_id": "P0028",
+        "quantity": 7288,
+        "reserved": 86,
+        "available": 7202,
+        "last_updated": "2026-01-08T22:49:07.467429"
       },
       {
-        "product_id": "P0085",
-        "quantity": 7557,
-        "reserved": 240,
-        "available": 7317,
-        "last_updated": "2026-01-06T20:03:34.427804"
+        "product_id": "P0052",
+        "quantity": 2680,
+        "reserved": 358,
+        "available": 2322,
+        "last_updated": "2026-01-08T22:49:07.467440"
       },
       {
-        "product_id": "P0002",
-        "quantity": 5082,
-        "reserved": 1002,
-        "available": 4080,
-        "last_updated": "2026-01-06T20:03:34.427815"
+        "product_id": "P0014",
+        "quantity": 6289,
+        "reserved": 197,
+        "available": 6092,
+        "last_updated": "2026-01-08T22:49:07.467451"
       },
       {
         "product_id": "P0033",
-        "quantity": 8306,
-        "reserved": 32,
-        "available": 8274,
-        "last_updated": "2026-01-06T20:03:34.427826"
+        "quantity": 6137,
+        "reserved": 467,
+        "available": 5670,
+        "last_updated": "2026-01-08T22:49:07.467462"
       },
       {
-        "product_id": "P0022",
-        "quantity": 7571,
+        "product_id": "P0080",
+        "quantity": 3000,
+        "reserved": 538,
+        "available": 2462,
+        "last_updated": "2026-01-08T22:49:07.467473"
+      },
+      {
+        "product_id": "P0097",
+        "quantity": 2042,
+        "reserved": 69,
+        "available": 1973,
+        "last_updated": "2026-01-08T22:49:07.467484"
+      },
+      {
+        "product_id": "P0039",
+        "quantity": 7944,
+        "reserved": 1566,
+        "available": 6378,
+        "last_updated": "2026-01-08T22:49:07.467495"
+      },
+      {
+        "product_id": "P0055",
+        "quantity": 3029,
+        "reserved": 122,
+        "available": 2907,
+        "last_updated": "2026-01-08T22:49:07.467506"
+      },
+      {
+        "product_id": "P0030",
+        "quantity": 3564,
+        "reserved": 610,
+        "available": 2954,
+        "last_updated": "2026-01-08T22:49:07.467518"
+      },
+      {
+        "product_id": "P0047",
+        "quantity": 6224,
+        "reserved": 528,
+        "available": 5696,
+        "last_updated": "2026-01-08T22:49:07.467529"
+      },
+      {
+        "product_id": "P0020",
+        "quantity": 4225,
+        "reserved": 710,
+        "available": 3515,
+        "last_updated": "2026-01-08T22:49:07.467540"
+      },
+      {
+        "product_id": "P0074",
+        "quantity": 5540,
+        "reserved": 1043,
+        "available": 4497,
+        "last_updated": "2026-01-08T22:49:07.467551"
+      },
+      {
+        "product_id": "P0045",
+        "quantity": 7621,
+        "reserved": 21,
+        "available": 7600,
+        "last_updated": "2026-01-08T22:49:07.467562"
+      },
+      {
+        "product_id": "P0044",
+        "quantity": 5799,
+        "reserved": 682,
+        "available": 5117,
+        "last_updated": "2026-01-08T22:49:07.467573"
+      },
+      {
+        "product_id": "P0051",
+        "quantity": 2544,
+        "reserved": 380,
+        "available": 2164,
+        "last_updated": "2026-01-08T22:49:07.467584"
+      },
+      {
+        "product_id": "P0095",
+        "quantity": 7866,
+        "reserved": 1237,
+        "available": 6629,
+        "last_updated": "2026-01-08T22:49:07.467595"
+      },
+      {
+        "product_id": "P0093",
+        "quantity": 8032,
+        "reserved": 182,
+        "available": 7850,
+        "last_updated": "2026-01-08T22:49:07.467606"
+      },
+      {
+        "product_id": "P0023",
+        "quantity": 8207,
+        "reserved": 1199,
+        "available": 7008,
+        "last_updated": "2026-01-08T22:49:07.467617"
+      },
+      {
+        "product_id": "P0084",
+        "quantity": 7691,
+        "reserved": 360,
+        "available": 7331,
+        "last_updated": "2026-01-08T22:49:07.467628"
+      },
+      {
+        "product_id": "P0048",
+        "quantity": 9879,
+        "reserved": 1237,
+        "available": 8642,
+        "last_updated": "2026-01-08T22:49:07.467644"
+      },
+      {
+        "product_id": "P0038",
+        "quantity": 4829,
         "reserved": 592,
-        "available": 6979,
-        "last_updated": "2026-01-06T20:03:34.427837"
+        "available": 4237,
+        "last_updated": "2026-01-08T22:49:07.467655"
       },
       {
-        "product_id": "P0008",
-        "quantity": 3512,
-        "reserved": 278,
-        "available": 3234,
-        "last_updated": "2026-01-06T20:03:34.427848"
+        "product_id": "P0011",
+        "quantity": 6751,
+        "reserved": 99,
+        "available": 6652,
+        "last_updated": "2026-01-08T22:49:07.467666"
+      },
+      {
+        "product_id": "P0064",
+        "quantity": 9997,
+        "reserved": 1549,
+        "available": 8448,
+        "last_updated": "2026-01-08T22:49:07.467677"
+      },
+      {
+        "product_id": "P0024",
+        "quantity": 9351,
+        "reserved": 610,
+        "available": 8741,
+        "last_updated": "2026-01-08T22:49:07.467688"
+      },
+      {
+        "product_id": "P0032",
+        "quantity": 8427,
+        "reserved": 146,
+        "available": 8281,
+        "last_updated": "2026-01-08T22:49:07.467699"
+      },
+      {
+        "product_id": "P0078",
+        "quantity": 1806,
+        "reserved": 324,
+        "available": 1482,
+        "last_updated": "2026-01-08T22:49:07.467710"
+      },
+      {
+        "product_id": "P0017",
+        "quantity": 9017,
+        "reserved": 1552,
+        "available": 7465,
+        "last_updated": "2026-01-08T22:49:07.467721"
+      },
+      {
+        "product_id": "P0009",
+        "quantity": 1673,
+        "reserved": 253,
+        "available": 1420,
+        "last_updated": "2026-01-08T22:49:07.467733"
+      },
+      {
+        "product_id": "P0089",
+        "quantity": 5685,
+        "reserved": 469,
+        "available": 5216,
+        "last_updated": "2026-01-08T22:49:07.467744"
+      },
+      {
+        "product_id": "P0090",
+        "quantity": 8053,
+        "reserved": 37,
+        "available": 8016,
+        "last_updated": "2026-01-08T22:49:07.467755"
+      },
+      {
+        "product_id": "P0083",
+        "quantity": 2051,
+        "reserved": 327,
+        "available": 1724,
+        "last_updated": "2026-01-08T22:49:07.467766"
+      },
+      {
+        "product_id": "P0077",
+        "quantity": 4404,
+        "reserved": 49,
+        "available": 4355,
+        "last_updated": "2026-01-08T22:49:07.467777"
+      },
+      {
+        "product_id": "P0060",
+        "quantity": 9188,
+        "reserved": 1062,
+        "available": 8126,
+        "last_updated": "2026-01-08T22:49:07.467788"
+      },
+      {
+        "product_id": "P0094",
+        "quantity": 7545,
+        "reserved": 1348,
+        "available": 6197,
+        "last_updated": "2026-01-08T22:49:07.467799"
+      },
+      {
+        "product_id": "P0029",
+        "quantity": 7080,
+        "reserved": 1161,
+        "available": 5919,
+        "last_updated": "2026-01-08T22:49:07.467810"
+      },
+      {
+        "product_id": "P0086",
+        "quantity": 3474,
+        "reserved": 39,
+        "available": 3435,
+        "last_updated": "2026-01-08T22:49:07.467821"
+      },
+      {
+        "product_id": "P0071",
+        "quantity": 4791,
+        "reserved": 26,
+        "available": 4765,
+        "last_updated": "2026-01-08T22:49:07.467833"
+      },
+      {
+        "product_id": "P0013",
+        "quantity": 7751,
+        "reserved": 944,
+        "available": 6807,
+        "last_updated": "2026-01-08T22:49:07.467844"
+      },
+      {
+        "product_id": "P0073",
+        "quantity": 3048,
+        "reserved": 535,
+        "available": 2513,
+        "last_updated": "2026-01-08T22:49:07.467855"
+      },
+      {
+        "product_id": "P0035",
+        "quantity": 5228,
+        "reserved": 720,
+        "available": 4508,
+        "last_updated": "2026-01-08T22:49:07.467866"
+      },
+      {
+        "product_id": "P0041",
+        "quantity": 3207,
+        "reserved": 196,
+        "available": 3011,
+        "last_updated": "2026-01-08T22:49:07.467877"
+      },
+      {
+        "product_id": "P0025",
+        "quantity": 1836,
+        "reserved": 158,
+        "available": 1678,
+        "last_updated": "2026-01-08T22:49:07.467888"
+      },
+      {
+        "product_id": "P0054",
+        "quantity": 7152,
+        "reserved": 756,
+        "available": 6396,
+        "last_updated": "2026-01-08T22:49:07.467899"
+      },
+      {
+        "product_id": "P0010",
+        "quantity": 3380,
+        "reserved": 277,
+        "available": 3103,
+        "last_updated": "2026-01-08T22:49:07.467911"
+      },
+      {
+        "product_id": "P0063",
+        "quantity": 2833,
+        "reserved": 235,
+        "available": 2598,
+        "last_updated": "2026-01-08T22:49:07.467922"
+      },
+      {
+        "product_id": "P0100",
+        "quantity": 4189,
+        "reserved": 296,
+        "available": 3893,
+        "last_updated": "2026-01-08T22:49:07.467935"
+      },
+      {
+        "product_id": "P0037",
+        "quantity": 8638,
+        "reserved": 146,
+        "available": 8492,
+        "last_updated": "2026-01-08T22:49:07.467947"
+      },
+      {
+        "product_id": "P0070",
+        "quantity": 4969,
+        "reserved": 95,
+        "available": 4874,
+        "last_updated": "2026-01-08T22:49:07.467958"
+      },
+      {
+        "product_id": "P0006",
+        "quantity": 1903,
+        "reserved": 213,
+        "available": 1690,
+        "last_updated": "2026-01-08T22:49:07.467969"
+      },
+      {
+        "product_id": "P0043",
+        "quantity": 4151,
+        "reserved": 61,
+        "available": 4090,
+        "last_updated": "2026-01-08T22:49:07.467980"
+      },
+      {
+        "product_id": "P0096",
+        "quantity": 3364,
+        "reserved": 213,
+        "available": 3151,
+        "last_updated": "2026-01-08T22:49:07.467992"
+      },
+      {
+        "product_id": "P0012",
+        "quantity": 4121,
+        "reserved": 251,
+        "available": 3870,
+        "last_updated": "2026-01-08T22:49:07.468003"
+      },
+      {
+        "product_id": "P0018",
+        "quantity": 3798,
+        "reserved": 174,
+        "available": 3624,
+        "last_updated": "2026-01-08T22:49:07.468014"
+      },
+      {
+        "product_id": "P0056",
+        "quantity": 2774,
+        "reserved": 163,
+        "available": 2611,
+        "last_updated": "2026-01-08T22:49:07.468029"
+      },
+      {
+        "product_id": "P0076",
+        "quantity": 6709,
+        "reserved": 1148,
+        "available": 5561,
+        "last_updated": "2026-01-08T22:49:07.468044"
       }
     ],
-    "last_updated": "2026-01-06T20:03:34.427849"
+    "last_updated": "2026-01-08T22:49:07.468045"
   },
   {
     "warehouse_id": "WH005",
@@ -2256,671 +2039,433 @@
     "location": "Kolkata",
     "products": [
       {
-        "product_id": "P0016",
-        "quantity": 2362,
-        "reserved": 270,
-        "available": 2092,
-        "last_updated": "2026-01-06T20:03:34.427954"
-      },
-      {
-        "product_id": "P0080",
-        "quantity": 1730,
-        "reserved": 137,
-        "available": 1593,
-        "last_updated": "2026-01-06T20:03:34.427968"
-      },
-      {
-        "product_id": "P0058",
-        "quantity": 4999,
-        "reserved": 610,
-        "available": 4389,
-        "last_updated": "2026-01-06T20:03:34.427981"
-      },
-      {
-        "product_id": "P0027",
-        "quantity": 3440,
-        "reserved": 64,
-        "available": 3376,
-        "last_updated": "2026-01-06T20:03:34.427994"
-      },
-      {
-        "product_id": "P0015",
-        "quantity": 1301,
-        "reserved": 179,
-        "available": 1122,
-        "last_updated": "2026-01-06T20:03:34.428006"
-      },
-      {
-        "product_id": "P0046",
-        "quantity": 6218,
-        "reserved": 1122,
-        "available": 5096,
-        "last_updated": "2026-01-06T20:03:34.428018"
-      },
-      {
-        "product_id": "P0061",
-        "quantity": 6626,
-        "reserved": 263,
-        "available": 6363,
-        "last_updated": "2026-01-06T20:03:34.428029"
-      },
-      {
-        "product_id": "P0051",
-        "quantity": 1691,
-        "reserved": 294,
-        "available": 1397,
-        "last_updated": "2026-01-06T20:03:34.428041"
-      },
-      {
-        "product_id": "P0047",
-        "quantity": 8795,
-        "reserved": 247,
-        "available": 8548,
-        "last_updated": "2026-01-06T20:03:34.428052"
-      },
-      {
-        "product_id": "P0099",
-        "quantity": 2380,
-        "reserved": 400,
-        "available": 1980,
-        "last_updated": "2026-01-06T20:03:34.428063"
-      },
-      {
-        "product_id": "P0035",
-        "quantity": 6945,
-        "reserved": 104,
-        "available": 6841,
-        "last_updated": "2026-01-06T20:03:34.428074"
-      },
-      {
-        "product_id": "P0044",
-        "quantity": 4328,
-        "reserved": 503,
-        "available": 3825,
-        "last_updated": "2026-01-06T20:03:34.428085"
-      },
-      {
-        "product_id": "P0001",
-        "quantity": 6939,
-        "reserved": 406,
-        "available": 6533,
-        "last_updated": "2026-01-06T20:03:34.428097"
-      },
-      {
-        "product_id": "P0062",
-        "quantity": 9126,
-        "reserved": 1078,
-        "available": 8048,
-        "last_updated": "2026-01-06T20:03:34.428108"
-      },
-      {
-        "product_id": "P0013",
-        "quantity": 3192,
-        "reserved": 39,
-        "available": 3153,
-        "last_updated": "2026-01-06T20:03:34.428119"
-      },
-      {
-        "product_id": "P0078",
-        "quantity": 4058,
-        "reserved": 762,
-        "available": 3296,
-        "last_updated": "2026-01-06T20:03:34.428130"
-      },
-      {
-        "product_id": "P0004",
-        "quantity": 3935,
-        "reserved": 654,
-        "available": 3281,
-        "last_updated": "2026-01-06T20:03:34.428141"
-      },
-      {
-        "product_id": "P0029",
-        "quantity": 7660,
-        "reserved": 1217,
-        "available": 6443,
-        "last_updated": "2026-01-06T20:03:34.428153"
-      },
-      {
-        "product_id": "P0085",
-        "quantity": 4643,
-        "reserved": 612,
-        "available": 4031,
-        "last_updated": "2026-01-06T20:03:34.428164"
+        "product_id": "P0075",
+        "quantity": 5018,
+        "reserved": 157,
+        "available": 4861,
+        "last_updated": "2026-01-08T22:49:07.468168"
       },
       {
         "product_id": "P0091",
-        "quantity": 5920,
-        "reserved": 854,
-        "available": 5066,
-        "last_updated": "2026-01-06T20:03:34.428175"
-      },
-      {
-        "product_id": "P0017",
-        "quantity": 3629,
-        "reserved": 316,
-        "available": 3313,
-        "last_updated": "2026-01-06T20:03:34.428186"
-      },
-      {
-        "product_id": "P0050",
-        "quantity": 7352,
-        "reserved": 115,
-        "available": 7237,
-        "last_updated": "2026-01-06T20:03:34.428197"
-      },
-      {
-        "product_id": "P0025",
-        "quantity": 6839,
-        "reserved": 111,
-        "available": 6728,
-        "last_updated": "2026-01-06T20:03:34.428208"
-      },
-      {
-        "product_id": "P0034",
-        "quantity": 2471,
-        "reserved": 320,
-        "available": 2151,
-        "last_updated": "2026-01-06T20:03:34.428220"
+        "quantity": 9060,
+        "reserved": 202,
+        "available": 8858,
+        "last_updated": "2026-01-08T22:49:07.468186"
       },
       {
         "product_id": "P0077",
-        "quantity": 6869,
-        "reserved": 818,
-        "available": 6051,
-        "last_updated": "2026-01-06T20:03:34.428231"
-      },
-      {
-        "product_id": "P0072",
-        "quantity": 8087,
-        "reserved": 604,
-        "available": 7483,
-        "last_updated": "2026-01-06T20:03:34.428242"
-      },
-      {
-        "product_id": "P0021",
-        "quantity": 7846,
-        "reserved": 195,
-        "available": 7651,
-        "last_updated": "2026-01-06T20:03:34.428254"
-      },
-      {
-        "product_id": "P0059",
-        "quantity": 3103,
-        "reserved": 599,
-        "available": 2504,
-        "last_updated": "2026-01-06T20:03:34.428265"
-      },
-      {
-        "product_id": "P0071",
-        "quantity": 1479,
-        "reserved": 2,
-        "available": 1477,
-        "last_updated": "2026-01-06T20:03:34.428277"
-      },
-      {
-        "product_id": "P0041",
-        "quantity": 9208,
-        "reserved": 20,
-        "available": 9188,
-        "last_updated": "2026-01-06T20:03:34.428288"
-      },
-      {
-        "product_id": "P0048",
-        "quantity": 9427,
-        "reserved": 179,
-        "available": 9248,
-        "last_updated": "2026-01-06T20:03:34.428299"
-      },
-      {
-        "product_id": "P0018",
-        "quantity": 4635,
-        "reserved": 245,
-        "available": 4390,
-        "last_updated": "2026-01-06T20:03:34.428310"
-      },
-      {
-        "product_id": "P0055",
-        "quantity": 2811,
-        "reserved": 257,
-        "available": 2554,
-        "last_updated": "2026-01-06T20:03:34.428321"
-      },
-      {
-        "product_id": "P0020",
-        "quantity": 8018,
-        "reserved": 1031,
-        "available": 6987,
-        "last_updated": "2026-01-06T20:03:34.428332"
-      },
-      {
-        "product_id": "P0054",
-        "quantity": 8279,
-        "reserved": 316,
-        "available": 7963,
-        "last_updated": "2026-01-06T20:03:34.428343"
-      },
-      {
-        "product_id": "P0037",
-        "quantity": 4260,
-        "reserved": 465,
-        "available": 3795,
-        "last_updated": "2026-01-06T20:03:34.428354"
-      },
-      {
-        "product_id": "P0096",
-        "quantity": 9804,
-        "reserved": 319,
-        "available": 9485,
-        "last_updated": "2026-01-06T20:03:34.428365"
-      },
-      {
-        "product_id": "P0033",
-        "quantity": 8268,
-        "reserved": 421,
-        "available": 7847,
-        "last_updated": "2026-01-06T20:03:34.428378"
-      },
-      {
-        "product_id": "P0052",
-        "quantity": 1464,
-        "reserved": 81,
-        "available": 1383,
-        "last_updated": "2026-01-06T20:03:34.428389"
-      },
-      {
-        "product_id": "P0092",
-        "quantity": 1429,
-        "reserved": 270,
-        "available": 1159,
-        "last_updated": "2026-01-06T20:03:34.428400"
-      },
-      {
-        "product_id": "P0100",
-        "quantity": 4564,
-        "reserved": 761,
-        "available": 3803,
-        "last_updated": "2026-01-06T20:03:34.428411"
-      },
-      {
-        "product_id": "P0003",
-        "quantity": 3743,
-        "reserved": 61,
-        "available": 3682,
-        "last_updated": "2026-01-06T20:03:34.428423"
-      },
-      {
-        "product_id": "P0026",
-        "quantity": 1169,
-        "reserved": 228,
-        "available": 941,
-        "last_updated": "2026-01-06T20:03:34.428434"
+        "quantity": 3798,
+        "reserved": 436,
+        "available": 3362,
+        "last_updated": "2026-01-08T22:49:07.468204"
       },
       {
         "product_id": "P0008",
-        "quantity": 3887,
-        "reserved": 346,
-        "available": 3541,
-        "last_updated": "2026-01-06T20:03:34.428445"
+        "quantity": 5642,
+        "reserved": 261,
+        "available": 5381,
+        "last_updated": "2026-01-08T22:49:07.468222"
       },
       {
-        "product_id": "P0090",
-        "quantity": 2140,
-        "reserved": 54,
-        "available": 2086,
-        "last_updated": "2026-01-06T20:03:34.428456"
+        "product_id": "P0015",
+        "quantity": 7067,
+        "reserved": 67,
+        "available": 7000,
+        "last_updated": "2026-01-08T22:49:07.468238"
       },
       {
-        "product_id": "P0060",
-        "quantity": 7772,
-        "reserved": 612,
-        "available": 7160,
-        "last_updated": "2026-01-06T20:03:34.428467"
-      },
-      {
-        "product_id": "P0019",
-        "quantity": 3495,
-        "reserved": 459,
-        "available": 3036,
-        "last_updated": "2026-01-06T20:03:34.428478"
-      },
-      {
-        "product_id": "P0089",
-        "quantity": 1331,
-        "reserved": 164,
-        "available": 1167,
-        "last_updated": "2026-01-06T20:03:34.428489"
-      },
-      {
-        "product_id": "P0024",
-        "quantity": 4695,
-        "reserved": 189,
-        "available": 4506,
-        "last_updated": "2026-01-06T20:03:34.428500"
-      },
-      {
-        "product_id": "P0040",
-        "quantity": 1012,
+        "product_id": "P0092",
+        "quantity": 6613,
         "reserved": 114,
-        "available": 898,
-        "last_updated": "2026-01-06T20:03:34.428511"
+        "available": 6499,
+        "last_updated": "2026-01-08T22:49:07.468254"
       },
       {
-        "product_id": "P0053",
-        "quantity": 1936,
-        "reserved": 182,
-        "available": 1754,
-        "last_updated": "2026-01-06T20:03:34.428522"
+        "product_id": "P0054",
+        "quantity": 5528,
+        "reserved": 430,
+        "available": 5098,
+        "last_updated": "2026-01-08T22:49:07.468291"
       },
       {
-        "product_id": "P0088",
-        "quantity": 2844,
-        "reserved": 289,
-        "available": 2555,
-        "last_updated": "2026-01-06T20:03:34.428533"
-      },
-      {
-        "product_id": "P0023",
-        "quantity": 9191,
-        "reserved": 735,
-        "available": 8456,
-        "last_updated": "2026-01-06T20:03:34.428544"
-      },
-      {
-        "product_id": "P0082",
-        "quantity": 3754,
-        "reserved": 276,
-        "available": 3478,
-        "last_updated": "2026-01-06T20:03:34.428555"
-      },
-      {
-        "product_id": "P0075",
-        "quantity": 4011,
-        "reserved": 156,
-        "available": 3855,
-        "last_updated": "2026-01-06T20:03:34.428566"
-      },
-      {
-        "product_id": "P0098",
-        "quantity": 8270,
-        "reserved": 660,
-        "available": 7610,
-        "last_updated": "2026-01-06T20:03:34.428577"
-      },
-      {
-        "product_id": "P0069",
-        "quantity": 8350,
-        "reserved": 1164,
-        "available": 7186,
-        "last_updated": "2026-01-06T20:03:34.428588"
-      },
-      {
-        "product_id": "P0028",
-        "quantity": 1758,
-        "reserved": 137,
-        "available": 1621,
-        "last_updated": "2026-01-06T20:03:34.428599"
-      },
-      {
-        "product_id": "P0083",
-        "quantity": 8101,
-        "reserved": 161,
-        "available": 7940,
-        "last_updated": "2026-01-06T20:03:34.428610"
-      },
-      {
-        "product_id": "P0081",
-        "quantity": 1552,
-        "reserved": 234,
-        "available": 1318,
-        "last_updated": "2026-01-06T20:03:34.428621"
-      },
-      {
-        "product_id": "P0010",
-        "quantity": 4520,
-        "reserved": 56,
-        "available": 4464,
-        "last_updated": "2026-01-06T20:03:34.428632"
-      },
-      {
-        "product_id": "P0036",
-        "quantity": 5950,
-        "reserved": 1184,
-        "available": 4766,
-        "last_updated": "2026-01-06T20:03:34.428643"
-      },
-      {
-        "product_id": "P0012",
-        "quantity": 6101,
-        "reserved": 1204,
-        "available": 4897,
-        "last_updated": "2026-01-06T20:03:34.428654"
-      },
-      {
-        "product_id": "P0022",
-        "quantity": 2040,
-        "reserved": 155,
-        "available": 1885,
-        "last_updated": "2026-01-06T20:03:34.428665"
-      },
-      {
-        "product_id": "P0030",
-        "quantity": 2688,
-        "reserved": 269,
-        "available": 2419,
-        "last_updated": "2026-01-06T20:03:34.428676"
-      },
-      {
-        "product_id": "P0042",
-        "quantity": 3524,
-        "reserved": 341,
-        "available": 3183,
-        "last_updated": "2026-01-06T20:03:34.428687"
-      },
-      {
-        "product_id": "P0006",
-        "quantity": 9801,
-        "reserved": 515,
-        "available": 9286,
-        "last_updated": "2026-01-06T20:03:34.428698"
-      },
-      {
-        "product_id": "P0002",
-        "quantity": 4625,
-        "reserved": 226,
-        "available": 4399,
-        "last_updated": "2026-01-06T20:03:34.428709"
-      },
-      {
-        "product_id": "P0056",
-        "quantity": 2499,
-        "reserved": 166,
-        "available": 2333,
-        "last_updated": "2026-01-06T20:03:34.428720"
-      },
-      {
-        "product_id": "P0032",
-        "quantity": 6123,
-        "reserved": 418,
-        "available": 5705,
-        "last_updated": "2026-01-06T20:03:34.428731"
-      },
-      {
-        "product_id": "P0063",
-        "quantity": 4047,
-        "reserved": 237,
-        "available": 3810,
-        "last_updated": "2026-01-06T20:03:34.428743"
-      },
-      {
-        "product_id": "P0079",
-        "quantity": 9998,
-        "reserved": 1760,
-        "available": 8238,
-        "last_updated": "2026-01-06T20:03:34.428754"
-      },
-      {
-        "product_id": "P0039",
-        "quantity": 3736,
-        "reserved": 273,
-        "available": 3463,
-        "last_updated": "2026-01-06T20:03:34.428765"
-      },
-      {
-        "product_id": "P0065",
-        "quantity": 8090,
-        "reserved": 1247,
-        "available": 6843,
-        "last_updated": "2026-01-06T20:03:34.428776"
-      },
-      {
-        "product_id": "P0064",
-        "quantity": 3977,
-        "reserved": 383,
-        "available": 3594,
-        "last_updated": "2026-01-06T20:03:34.428787"
-      },
-      {
-        "product_id": "P0057",
-        "quantity": 4902,
-        "reserved": 832,
-        "available": 4070,
-        "last_updated": "2026-01-06T20:03:34.428798"
-      },
-      {
-        "product_id": "P0009",
-        "quantity": 7971,
-        "reserved": 1433,
-        "available": 6538,
-        "last_updated": "2026-01-06T20:03:34.428809"
-      },
-      {
-        "product_id": "P0076",
-        "quantity": 1258,
-        "reserved": 83,
-        "available": 1175,
-        "last_updated": "2026-01-06T20:03:34.428821"
-      },
-      {
-        "product_id": "P0045",
-        "quantity": 9123,
-        "reserved": 26,
-        "available": 9097,
-        "last_updated": "2026-01-06T20:03:34.428832"
-      },
-      {
-        "product_id": "P0049",
-        "quantity": 2136,
-        "reserved": 412,
-        "available": 1724,
-        "last_updated": "2026-01-06T20:03:34.428843"
-      },
-      {
-        "product_id": "P0073",
-        "quantity": 3636,
-        "reserved": 190,
-        "available": 3446,
-        "last_updated": "2026-01-06T20:03:34.428854"
-      },
-      {
-        "product_id": "P0014",
-        "quantity": 4002,
-        "reserved": 237,
-        "available": 3765,
-        "last_updated": "2026-01-06T20:03:34.428865"
-      },
-      {
-        "product_id": "P0067",
-        "quantity": 4423,
-        "reserved": 210,
-        "available": 4213,
-        "last_updated": "2026-01-06T20:03:34.428878"
-      },
-      {
-        "product_id": "P0095",
-        "quantity": 4409,
-        "reserved": 782,
-        "available": 3627,
-        "last_updated": "2026-01-06T20:03:34.428894"
-      },
-      {
-        "product_id": "P0087",
-        "quantity": 8155,
-        "reserved": 1486,
-        "available": 6669,
-        "last_updated": "2026-01-06T20:03:34.428909"
-      },
-      {
-        "product_id": "P0070",
-        "quantity": 4736,
-        "reserved": 129,
-        "available": 4607,
-        "last_updated": "2026-01-06T20:03:34.428924"
-      },
-      {
-        "product_id": "P0038",
-        "quantity": 4951,
-        "reserved": 421,
-        "available": 4530,
-        "last_updated": "2026-01-06T20:03:34.428958"
-      },
-      {
-        "product_id": "P0068",
-        "quantity": 3351,
-        "reserved": 462,
-        "available": 2889,
-        "last_updated": "2026-01-06T20:03:34.428973"
-      },
-      {
-        "product_id": "P0094",
-        "quantity": 2495,
-        "reserved": 47,
-        "available": 2448,
-        "last_updated": "2026-01-06T20:03:34.429007"
+        "product_id": "P0016",
+        "quantity": 7896,
+        "reserved": 654,
+        "available": 7242,
+        "last_updated": "2026-01-08T22:49:07.468317"
       },
       {
         "product_id": "P0043",
-        "quantity": 5976,
-        "reserved": 896,
-        "available": 5080,
-        "last_updated": "2026-01-06T20:03:34.429028"
+        "quantity": 7022,
+        "reserved": 849,
+        "available": 6173,
+        "last_updated": "2026-01-08T22:49:07.468333"
       },
       {
-        "product_id": "P0066",
-        "quantity": 2574,
-        "reserved": 435,
-        "available": 2139,
-        "last_updated": "2026-01-06T20:03:34.429045"
+        "product_id": "P0031",
+        "quantity": 4560,
+        "reserved": 304,
+        "available": 4256,
+        "last_updated": "2026-01-08T22:49:07.468347"
       },
       {
-        "product_id": "P0011",
-        "quantity": 2253,
-        "reserved": 427,
-        "available": 1826,
-        "last_updated": "2026-01-06T20:03:34.429060"
+        "product_id": "P0056",
+        "quantity": 5102,
+        "reserved": 431,
+        "available": 4671,
+        "last_updated": "2026-01-08T22:49:07.468360"
+      },
+      {
+        "product_id": "P0007",
+        "quantity": 4458,
+        "reserved": 0,
+        "available": 4458,
+        "last_updated": "2026-01-08T22:49:07.468372"
+      },
+      {
+        "product_id": "P0073",
+        "quantity": 8454,
+        "reserved": 1298,
+        "available": 7156,
+        "last_updated": "2026-01-08T22:49:07.468384"
+      },
+      {
+        "product_id": "P0095",
+        "quantity": 1444,
+        "reserved": 163,
+        "available": 1281,
+        "last_updated": "2026-01-08T22:49:07.468396"
+      },
+      {
+        "product_id": "P0087",
+        "quantity": 1889,
+        "reserved": 297,
+        "available": 1592,
+        "last_updated": "2026-01-08T22:49:07.468410"
+      },
+      {
+        "product_id": "P0067",
+        "quantity": 6637,
+        "reserved": 367,
+        "available": 6270,
+        "last_updated": "2026-01-08T22:49:07.468427"
+      },
+      {
+        "product_id": "P0072",
+        "quantity": 3406,
+        "reserved": 626,
+        "available": 2780,
+        "last_updated": "2026-01-08T22:49:07.468443"
+      },
+      {
+        "product_id": "P0042",
+        "quantity": 1247,
+        "reserved": 80,
+        "available": 1167,
+        "last_updated": "2026-01-08T22:49:07.468459"
       },
       {
         "product_id": "P0093",
-        "quantity": 8110,
-        "reserved": 581,
-        "available": 7529,
-        "last_updated": "2026-01-06T20:03:34.429074"
+        "quantity": 4273,
+        "reserved": 159,
+        "available": 4114,
+        "last_updated": "2026-01-08T22:49:07.468470"
       },
       {
-        "product_id": "P0084",
-        "quantity": 5113,
-        "reserved": 668,
-        "available": 4445,
-        "last_updated": "2026-01-06T20:03:34.429090"
+        "product_id": "P0028",
+        "quantity": 8566,
+        "reserved": 1411,
+        "available": 7155,
+        "last_updated": "2026-01-08T22:49:07.468481"
+      },
+      {
+        "product_id": "P0006",
+        "quantity": 4548,
+        "reserved": 32,
+        "available": 4516,
+        "last_updated": "2026-01-08T22:49:07.468493"
+      },
+      {
+        "product_id": "P0026",
+        "quantity": 9241,
+        "reserved": 1285,
+        "available": 7956,
+        "last_updated": "2026-01-08T22:49:07.468504"
+      },
+      {
+        "product_id": "P0029",
+        "quantity": 5515,
+        "reserved": 708,
+        "available": 4807,
+        "last_updated": "2026-01-08T22:49:07.468515"
+      },
+      {
+        "product_id": "P0040",
+        "quantity": 5662,
+        "reserved": 508,
+        "available": 5154,
+        "last_updated": "2026-01-08T22:49:07.468526"
+      },
+      {
+        "product_id": "P0023",
+        "quantity": 9092,
+        "reserved": 942,
+        "available": 8150,
+        "last_updated": "2026-01-08T22:49:07.468537"
+      },
+      {
+        "product_id": "P0059",
+        "quantity": 9927,
+        "reserved": 1560,
+        "available": 8367,
+        "last_updated": "2026-01-08T22:49:07.468549"
+      },
+      {
+        "product_id": "P0046",
+        "quantity": 4568,
+        "reserved": 868,
+        "available": 3700,
+        "last_updated": "2026-01-08T22:49:07.468560"
+      },
+      {
+        "product_id": "P0005",
+        "quantity": 9978,
+        "reserved": 394,
+        "available": 9584,
+        "last_updated": "2026-01-08T22:49:07.468571"
+      },
+      {
+        "product_id": "P0100",
+        "quantity": 2332,
+        "reserved": 101,
+        "available": 2231,
+        "last_updated": "2026-01-08T22:49:07.468582"
+      },
+      {
+        "product_id": "P0002",
+        "quantity": 9367,
+        "reserved": 535,
+        "available": 8832,
+        "last_updated": "2026-01-08T22:49:07.468594"
+      },
+      {
+        "product_id": "P0001",
+        "quantity": 7729,
+        "reserved": 1280,
+        "available": 6449,
+        "last_updated": "2026-01-08T22:49:07.468605"
       },
       {
         "product_id": "P0086",
-        "quantity": 4278,
-        "reserved": 44,
-        "available": 4234,
-        "last_updated": "2026-01-06T20:03:34.429107"
+        "quantity": 7755,
+        "reserved": 852,
+        "available": 6903,
+        "last_updated": "2026-01-08T22:49:07.468616"
+      },
+      {
+        "product_id": "P0070",
+        "quantity": 3074,
+        "reserved": 554,
+        "available": 2520,
+        "last_updated": "2026-01-08T22:49:07.468627"
+      },
+      {
+        "product_id": "P0027",
+        "quantity": 6221,
+        "reserved": 361,
+        "available": 5860,
+        "last_updated": "2026-01-08T22:49:07.468639"
+      },
+      {
+        "product_id": "P0047",
+        "quantity": 2112,
+        "reserved": 421,
+        "available": 1691,
+        "last_updated": "2026-01-08T22:49:07.468650"
+      },
+      {
+        "product_id": "P0041",
+        "quantity": 8500,
+        "reserved": 591,
+        "available": 7909,
+        "last_updated": "2026-01-08T22:49:07.468662"
+      },
+      {
+        "product_id": "P0018",
+        "quantity": 1329,
+        "reserved": 136,
+        "available": 1193,
+        "last_updated": "2026-01-08T22:49:07.468673"
+      },
+      {
+        "product_id": "P0081",
+        "quantity": 6456,
+        "reserved": 1093,
+        "available": 5363,
+        "last_updated": "2026-01-08T22:49:07.468684"
+      },
+      {
+        "product_id": "P0079",
+        "quantity": 8287,
+        "reserved": 117,
+        "available": 8170,
+        "last_updated": "2026-01-08T22:49:07.468695"
+      },
+      {
+        "product_id": "P0069",
+        "quantity": 5289,
+        "reserved": 696,
+        "available": 4593,
+        "last_updated": "2026-01-08T22:49:07.468707"
+      },
+      {
+        "product_id": "P0019",
+        "quantity": 7089,
+        "reserved": 1008,
+        "available": 6081,
+        "last_updated": "2026-01-08T22:49:07.468718"
+      },
+      {
+        "product_id": "P0094",
+        "quantity": 4872,
+        "reserved": 238,
+        "available": 4634,
+        "last_updated": "2026-01-08T22:49:07.468730"
+      },
+      {
+        "product_id": "P0030",
+        "quantity": 4543,
+        "reserved": 469,
+        "available": 4074,
+        "last_updated": "2026-01-08T22:49:07.468742"
+      },
+      {
+        "product_id": "P0066",
+        "quantity": 4774,
+        "reserved": 189,
+        "available": 4585,
+        "last_updated": "2026-01-08T22:49:07.468758"
+      },
+      {
+        "product_id": "P0035",
+        "quantity": 4069,
+        "reserved": 610,
+        "available": 3459,
+        "last_updated": "2026-01-08T22:49:07.468774"
+      },
+      {
+        "product_id": "P0021",
+        "quantity": 5582,
+        "reserved": 429,
+        "available": 5153,
+        "last_updated": "2026-01-08T22:49:07.468786"
+      },
+      {
+        "product_id": "P0009",
+        "quantity": 5505,
+        "reserved": 149,
+        "available": 5356,
+        "last_updated": "2026-01-08T22:49:07.468799"
+      },
+      {
+        "product_id": "P0099",
+        "quantity": 7856,
+        "reserved": 1401,
+        "available": 6455,
+        "last_updated": "2026-01-08T22:49:07.468842"
+      },
+      {
+        "product_id": "P0011",
+        "quantity": 8386,
+        "reserved": 1027,
+        "available": 7359,
+        "last_updated": "2026-01-08T22:49:07.468869"
+      },
+      {
+        "product_id": "P0052",
+        "quantity": 5639,
+        "reserved": 828,
+        "available": 4811,
+        "last_updated": "2026-01-08T22:49:07.468888"
+      },
+      {
+        "product_id": "P0003",
+        "quantity": 3427,
+        "reserved": 11,
+        "available": 3416,
+        "last_updated": "2026-01-08T22:49:07.468903"
+      },
+      {
+        "product_id": "P0096",
+        "quantity": 5847,
+        "reserved": 653,
+        "available": 5194,
+        "last_updated": "2026-01-08T22:49:07.468917"
+      },
+      {
+        "product_id": "P0090",
+        "quantity": 1570,
+        "reserved": 100,
+        "available": 1470,
+        "last_updated": "2026-01-08T22:49:07.468931"
+      },
+      {
+        "product_id": "P0045",
+        "quantity": 9304,
+        "reserved": 71,
+        "available": 9233,
+        "last_updated": "2026-01-08T22:49:07.468961"
+      },
+      {
+        "product_id": "P0064",
+        "quantity": 7132,
+        "reserved": 352,
+        "available": 6780,
+        "last_updated": "2026-01-08T22:49:07.468978"
+      },
+      {
+        "product_id": "P0012",
+        "quantity": 4512,
+        "reserved": 728,
+        "available": 3784,
+        "last_updated": "2026-01-08T22:49:07.469009"
+      },
+      {
+        "product_id": "P0051",
+        "quantity": 3658,
+        "reserved": 340,
+        "available": 3318,
+        "last_updated": "2026-01-08T22:49:07.469029"
+      },
+      {
+        "product_id": "P0033",
+        "quantity": 7258,
+        "reserved": 263,
+        "available": 6995,
+        "last_updated": "2026-01-08T22:49:07.469044"
+      },
+      {
+        "product_id": "P0084",
+        "quantity": 2621,
+        "reserved": 143,
+        "available": 2478,
+        "last_updated": "2026-01-08T22:49:07.469060"
+      },
+      {
+        "product_id": "P0048",
+        "quantity": 2512,
+        "reserved": 42,
+        "available": 2470,
+        "last_updated": "2026-01-08T22:49:07.469076"
+      },
+      {
+        "product_id": "P0057",
+        "quantity": 4602,
+        "reserved": 673,
+        "available": 3929,
+        "last_updated": "2026-01-08T22:49:07.469092"
       }
     ],
-    "last_updated": "2026-01-06T20:03:34.429109"
+    "last_updated": "2026-01-08T22:49:07.469093"
   }
 ]

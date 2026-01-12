@@ -27,6 +27,8 @@ dependencies = [
     "streamlit-chat>=0.1.1",
     # Utilities
     "python-dotenv>=1.0.0",
+    "requests==2.31.0",
+    "python-json-logger>=4.0.0",
 ]
 
 [project.optional-dependencies]

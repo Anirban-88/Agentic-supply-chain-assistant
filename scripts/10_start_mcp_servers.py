@@ -1,5 +1,3 @@
-
-
 import sys
 import os
 import logging
@@ -12,11 +10,11 @@ from typing import Dict, List, Any
 # Add parent directory to path to import modules
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from config.mcp_config import MCP_SERVERS, ORCHESTRATOR_CONFIG, LOGGING_CONFIG
-import logging.config
+from config.mcp_config import MCP_SERVERS, ORCHESTRATOR_CONFIG
+from config.logging_config import setup_logging
 
-# Configure logging
-logging.config.dictConfig(LOGGING_CONFIG)
+# Setup logging
+setup_logging()
 logger = logging.getLogger(__name__)
 
 # Global variables for process management
@@ -46,7 +44,11 @@ class MCPServerManager:
             if config['enabled']:
                 await self.start_server(server_id, config)
         
-        # Start orchestrator last
+        # Wait for agent servers to fully start
+        logger.info("Waiting for agent servers to initialize...")
+        await asyncio.sleep(3)
+        
+        # Start orchestrator last (it will connect to agent servers)
         await self.start_orchestrator()
         
         logger.info("All servers started")
@@ -66,8 +68,7 @@ class MCPServerManager:
             cmd = [
                 sys.executable,
                 "-m", f"mcp_servers.{server_id}_server",
-                "--port", str(config['port']),
-                "--transport", "http"
+                "--port", str(config['port'])
             ]
             
             process = subprocess.Popen(
@@ -101,9 +102,8 @@ class MCPServerManager:
             # Start as separate process
             cmd = [
                 sys.executable,
-                "-m", "agents.orchestrator",
-                "--port", str(ORCHESTRATOR_CONFIG['port']),
-                "--mode", "server"
+                "-m", "mcp_servers.orchestrator_server",
+                "--port", str(ORCHESTRATOR_CONFIG['port'])
             ]
             
             process = subprocess.Popen(
