@@ -1,4 +1,4 @@
-
+# scripts/01_generate_data.py
 
 import sys
 import os

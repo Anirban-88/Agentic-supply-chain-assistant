@@ -215,6 +215,7 @@ if ENVIRONMENT == 'production':
 def get_server_urls():
     """Get dictionary of all server URLs"""
     urls = {}
+    # Use localhost for client connections (0.0.0.0 is for server binding only)
     host = 'localhost' if TRANSPORT_CONFIG['host'] == '0.0.0.0' else TRANSPORT_CONFIG['host']
     
     # Add orchestrator URL

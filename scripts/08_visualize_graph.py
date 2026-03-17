@@ -1,4 +1,4 @@
-
+# scripts/08_visualize_graph.py
 
 import sys
 import os

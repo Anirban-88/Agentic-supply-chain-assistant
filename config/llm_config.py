@@ -1,3 +1,5 @@
+# config/llm_config.py
+
 import torch
 import os
 from dotenv import load_dotenv
@@ -38,4 +40,4 @@ if LLAMA_CONFIG['device'] == 'cpu':
 elif LLAMA_CONFIG['device'] == 'mps':
     print("🚀 Running on Apple Silicon GPU (MPS) - Accelerated inference enabled!")
 elif LLAMA_CONFIG['device'] == 'cuda':
-    print("🚀 Running on NVIDIA GPU (CUDA) - Accelerated inference enabled!")    
+    print("🚀 Running on NVIDIA GPU (CUDA) - Accelerated inference enabled!")

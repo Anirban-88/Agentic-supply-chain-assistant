@@ -1,4 +1,4 @@
-
+# scripts/04_verify_setup.py
 
 import sys
 import os

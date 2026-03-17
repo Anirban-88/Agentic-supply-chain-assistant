@@ -1,4 +1,4 @@
-
+# scripts/06_create_knowledge_graph.py
 
 import sys
 import os

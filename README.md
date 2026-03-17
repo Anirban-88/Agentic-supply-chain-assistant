@@ -802,6 +802,139 @@ OUTPUT: Comprehensive Multi-Agent Response
 
 ---
 
+## 📦 Prerequisites
+
+- **Python 3.9+**
+- **uv** (already installed ✅)
+- **PostgreSQL 14+**
+- **MongoDB 6+**
+- **Neo4j 5+**
+
+---
+
+## 🚀 Installation & Setup
+
+### Step 1: Clone Repository
+
+```bash
+git clone <your-repository-url>
+cd store_supply_chain
+```
+
+### Step 2: Create Virtual Environment
+
+```bash
+# Create virtual environment with uv
+uv venv --python 3.9
+
+# Activate virtual environment
+# macOS/Linux:
+source .venv/bin/activate
+
+# Windows:
+.venv\Scripts\activate
+```
+
+### Step 3: Install Dependencies
+
+```bash
+# Install all dependencies (fast with uv!)
+uv pip install -e .
+
+# Or from requirements.txt:
+uv pip install -r requirements.txt
+```
+
+### Step 4: Configure Databases
+
+Edit configuration files with your credentials:
+
+**[`config/db_config.py`](config/db_config.py):**
+```python
+POSTGRES_CONFIG = {
+    'host': 'localhost',
+    'port': 5432,
+    'user': 'postgres',
+    'password': 'your_password',  # Update this
+}
+```
+
+**[`config/neo4j_config.py`](config/neo4j_config.py):**
+```python
+NEO4J_CONFIG = {
+    'uri': 'bolt://localhost:7687',
+    'user': 'neo4j',
+    'password': 'password',  # Update this
+}
+```
+
+### Step 5: Start Database Services
+
+```bash
+# PostgreSQL
+brew services start postgresql@14  # macOS
+# sudo systemctl start postgresql  # Linux
+
+# MongoDB
+brew services start mongodb-community  # macOS
+# sudo systemctl start mongod         # Linux
+
+# Neo4j - Start from Neo4j Desktop or:
+neo4j start
+```
+
+### Step 6: Setup Databases
+
+```bash
+# 1. Generate synthetic data
+python scripts/01_generate_data.py
+
+# 2. Setup PostgreSQL
+python scripts/02_setup_postgresql.py
+
+# 3. Setup MongoDB
+python scripts/03_setup_mongodb.py
+
+# 4. Create Neo4j Knowledge Graph
+python scripts/06_create_knowledge_graph.py
+
+# 5. Verify setup
+python scripts/04_verify_setup.py
+```
+
+### Step 7: Run Application
+
+```bash
+# Start Streamlit UI
+streamlit run ui/streamlit_app.py
+```
+
+Open `http://localhost:8501` in your browser.
+
+---
+
+## 🎯 Quick Setup (All Commands)
+
+```bash
+# Setup
+cd store_supply_chain
+uv venv --python 3.9
+source .venv/bin/activate
+uv pip install -e .
+
+# Database setup (ensure services are running!)
+python scripts/01_generate_data.py
+python scripts/02_setup_postgresql.py
+python scripts/03_setup_mongodb.py
+python scripts/06_create_knowledge_graph.py
+python scripts/04_verify_setup.py
+
+# Run
+streamlit run ui/streamlit_app.py
+```
+
+---
+
 
 
 

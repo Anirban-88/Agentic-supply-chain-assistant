@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-# mcp_servers/orchestrator_server.py
+
 
 import sys
 import os
@@ -50,11 +49,19 @@ class OrchestratorRequestHandler(BaseHTTPRequestHandler):
     
     def _handle_health(self):
         """Health check endpoint"""
+        # Support both DistributedOrchestrator (agents_info) and regular Orchestrator (agents)
+        agent_count = 0
+        if self.orchestrator:
+            if hasattr(self.orchestrator, 'agents_info'):
+                agent_count = len(self.orchestrator.agents_info)
+            elif hasattr(self.orchestrator, 'agents'):
+                agent_count = len(self.orchestrator.agents)
+        
         response = {
             'status': 'healthy',
             'service': 'Orchestrator',
             'version': '0.1.0',
-            'agents': len(self.orchestrator.agents) if self.orchestrator else 0
+            'agents': agent_count
         }
         self._send_json_response(response)
     
@@ -64,10 +71,20 @@ class OrchestratorRequestHandler(BaseHTTPRequestHandler):
             self._send_json_response({'error': 'Orchestrator not initialized'}, status=500)
             return
         
+        # Support both DistributedOrchestrator (agents_info) and regular Orchestrator (agents)
+        if hasattr(self.orchestrator, 'agents_info'):
+            # Distributed orchestrator - agents_info is a dict
+            agents_list = self.orchestrator.agents_info
+        elif hasattr(self.orchestrator, 'agents'):
+            # Regular orchestrator - agents is a list of agent objects
+            agents_list = {agent.name: {'name': agent.name} for agent in self.orchestrator.agents}
+        else:
+            agents_list = {}
+        
         response = {
             'name': 'Supply Chain Orchestrator',
             'description': 'Routes queries to appropriate agents and aggregates responses',
-            'agents': [agent.name for agent in self.orchestrator.agents],
+            'agents': agents_list,
             'endpoints': ['/query', '/health', '/capabilities']
         }
         self._send_json_response(response)

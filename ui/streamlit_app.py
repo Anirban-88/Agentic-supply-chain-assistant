@@ -122,7 +122,7 @@ def process_query(query: str) -> dict:
 
 # Sidebar
 with st.sidebar:
-    st.image("app_logo.png", use_container_width=True)
+    st.image("supply_chain_logo.png", use_container_width=True)
     
     # Mode selector
     st.markdown("## ⚙️ Configuration")

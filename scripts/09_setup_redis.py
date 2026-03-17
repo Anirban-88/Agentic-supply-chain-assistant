@@ -93,25 +93,54 @@ class RedisSetup:
     
     def _load_batch_data(self) -> List[Dict[str, Any]]:
         """Load batch data from PostgreSQL"""
-        query = """
-            SELECT b.*, p.name as product_name, p.category
-            FROM batches b
-            JOIN store_catalog.products p ON b.product_id = p.product_id
-            WHERE b.status = 'active'
+        # Get batches from expiry_tracking database
+        batch_query = """
+            SELECT *
+            FROM batches
+            WHERE status = 'active'
         """
-        return self.postgres_client.execute_query(query)
+        batches = self.postgres_client.execute_query(batch_query)
+        
+        # Get product info from store_catalog database
+        product_query = """
+            SELECT product_id, name, category
+            FROM products
+        """
+        products = self.store_catalog_db.execute_query(product_query)
+        
+        # Create product lookup dict
+        product_lookup = {p['product_id']: p for p in products}
+        
+        # Enrich batches with product info
+        enriched_batches = []
+        for batch in batches:
+            product_id = batch['product_id']
+            if product_id in product_lookup:
+                batch['product_name'] = product_lookup[product_id]['name']
+                batch['category'] = product_lookup[product_id]['category']
+                enriched_batches.append(batch)
+        
+        return enriched_batches
     
     def _setup_expiry_tracking(self, batches: List[Dict[str, Any]]):
         """Setup expiry tracking data in Redis"""
         logger.info("Setting up expiry tracking data...")
         
         pipe = self.redis_client.pipeline()
-        now = datetime.now()
+        now = datetime.now().date()  # Use date for comparison
         
         # Process each batch
         for batch in batches:
-            # Calculate days until expiry
+            # Convert dates to date objects if they're datetime
             expiry_date = batch['expiry_date']
+            if isinstance(expiry_date, datetime):
+                expiry_date = expiry_date.date()
+            
+            manufacturing_date = batch['manufacturing_date']
+            if isinstance(manufacturing_date, datetime):
+                manufacturing_date = manufacturing_date.date()
+            
+            # Calculate days until expiry
             days_until_expiry = (expiry_date - now).days
             
             # Skip expired batches
@@ -123,8 +152,8 @@ class RedisSetup:
             pipe.hset(batch_key, mapping={
                 'product_id': batch['product_id'],
                 'product_name': batch['product_name'],
-                'manufacturing_date': batch['manufacturing_date'].isoformat(),
-                'expiry_date': batch['expiry_date'].isoformat(),
+                'manufacturing_date': manufacturing_date.isoformat(),
+                'expiry_date': expiry_date.isoformat(),
                 'quantity': str(batch['quantity']),
                 'location_id': batch['location_id'],
                 'status': batch['status']
@@ -135,7 +164,7 @@ class RedisSetup:
             product_key = REDIS_KEYS['expiry_product'].format(product_id=batch['product_id'])
             pipe.hset(product_key, mapping={
                 'batch_id': batch['batch_id'],
-                'expiry_date': batch['expiry_date'].isoformat(),
+                'expiry_date': expiry_date.isoformat(),
                 'quantity': str(batch['quantity']),
                 'location_id': batch['location_id'],
                 'status': batch['status']
@@ -147,11 +176,12 @@ class RedisSetup:
                 if days_until_expiry <= days:
                     near_expiry_key = REDIS_KEYS['expiry_near'].format(days=days)
                     member = f"{batch['product_id']}:{batch['batch_id']}"
-                    score = expiry_date.timestamp()
+                    # Convert date to datetime for timestamp
+                    score = datetime.combine(expiry_date, datetime.min.time()).timestamp()
                     pipe.zadd(near_expiry_key, {member: score})
             
             # 4. Calculate and store freshness score
-            total_shelf_life = (expiry_date - batch['manufacturing_date']).days
+            total_shelf_life = (expiry_date - manufacturing_date).days
             if total_shelf_life > 0:
                 freshness_score = min(100, (days_until_expiry / total_shelf_life) * 100)
                 freshness_key = REDIS_KEYS['freshness'].format(

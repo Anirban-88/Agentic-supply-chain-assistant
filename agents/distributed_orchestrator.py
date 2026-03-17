@@ -28,24 +28,40 @@ class DistributedOrchestrator:
         logger.info(f"✅ Distributed Orchestrator initialized with {len(self.agents_info)} agent servers")
     
     def _load_agent_capabilities(self):
-        """Load capabilities from all agent servers"""
+        """Load capabilities from all agent servers with retry logic"""
+        import time
+        
+        max_retries = 10
+        retry_delay = 3
+        
         for server_id, url in self.server_urls.items():
             if server_id == 'orchestrator':
                 continue
             
-            try:
-                response = requests.get(f"{url}/capabilities", timeout=5)
-                if response.status_code == 200:
-                    data = response.json()
-                    self.agents_info[server_id] = {
-                        'name': data.get('name', server_id),
-                        'description': data.get('description', ''),
-                        'keywords': data.get('keywords', []),
-                        'url': url
-                    }
-                    logger.info(f"✅ Loaded capabilities for {server_id}: {data.get('name')}")
-            except Exception as e:
-                logger.error(f"❌ Failed to load capabilities for {server_id}: {e}")
+            # Retry loading capabilities
+            for attempt in range(max_retries):
+                try:
+                    response = requests.get(f"{url}/capabilities", timeout=5)
+                    if response.status_code == 200:
+                        data = response.json()
+                        self.agents_info[server_id] = {
+                            'name': data.get('name', server_id),
+                            'description': data.get('description', ''),
+                            'keywords': data.get('keywords', []),
+                            'url': url
+                        }
+                        logger.info(f"✅ Loaded capabilities for {server_id}: {data.get('name')}")
+                        break  # Success, move to next server
+                    else:
+                        if attempt < max_retries - 1:
+                            logger.warning(f"⚠️  {server_id} returned {response.status_code}, retrying in {retry_delay}s... (attempt {attempt + 1}/{max_retries})")
+                            time.sleep(retry_delay)
+                except Exception as e:
+                    if attempt < max_retries - 1:
+                        logger.warning(f"⚠️  Failed to load capabilities for {server_id}: {e}, retrying in {retry_delay}s... (attempt {attempt + 1}/{max_retries})")
+                        time.sleep(retry_delay)
+                    else:
+                        logger.error(f"❌ Failed to load capabilities for {server_id} after {max_retries} attempts: {e}")
     
     def process_query(self, user_query: str) -> Dict[str, Any]:
         """
